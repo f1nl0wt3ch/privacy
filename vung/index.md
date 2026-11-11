@@ -1,6 +1,6 @@
 ---
 title: Vung – Legal
-permalink: /
+permalink: /vung/
 ---
 
 # Vung – Legal

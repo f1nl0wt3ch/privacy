@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy – Vung
-permalink: /privacy/
+permalink: /vung/privacy/
 ---
 
 # Privacy Policy

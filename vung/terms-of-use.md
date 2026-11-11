@@ -1,6 +1,6 @@
 ---
 title: Terms of Use – Vung
-permalink: /terms/
+permalink: /vung/terms/
 ---
 
 # Terms of Use

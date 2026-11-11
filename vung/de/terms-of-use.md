@@ -1,16 +1,16 @@
 ---
 title: Nutzungsbedingungen – Vung
-permalink: /de/terms/
+permalink: /vung/de/terms/
 lang: de
 ---
 
 # Nutzungsbedingungen
 
-**App:** Vung („die App“) · **Zuletzt aktualisiert:** 7. November 2026 · **Gültig ab:** [RELEASE DATE]
+**App:** Vung („die App“) · **Zuletzt aktualisiert:** 9. November 2026 · **Gültig ab:** 15. November 2026
 
 [English](../../terms/) (der englische Text ist das Original; weicht die Übersetzung ab, gilt der englische Text, es sei denn, das Recht Ihres Landes gewährt Ihnen stärkere Rechte) · [Suomi](../../fi/terms/) · [Svenska](../../sv/terms/) · [Tiếng Việt](../../vi/terms/)
 
-Diese Bedingungen gelten zwischen Ihnen und **[OPERATOR NAME]** [Business ID (Y-tunnus), if any], [STREET ADDRESS, POSTCODE, CITY], Finnland, [CONTACT EMAIL] („wir“). Mit dem Herunterladen oder Nutzen der App akzeptieren Sie diese Bedingungen. Wenn Sie nicht einverstanden sind, nutzen Sie die App nicht.
+Diese Bedingungen gelten zwischen Ihnen und **Thinh Dinh**, Kytötie 71, 04430 Järvenpää, Finnland, tikki.dinh@gmail.com („wir“). Mit dem Herunterladen oder Nutzen der App akzeptieren Sie diese Bedingungen. Wenn Sie nicht einverstanden sind, nutzen Sie die App nicht.
 
 ## 1. Standardbedingungen von Apple
 
@@ -33,6 +33,8 @@ Die App hilft Ihnen, Ihre eigenen Finanzen zu erfassen und zu verstehen: monatli
 |---|---|---|
 | Punktzahl, Schulden, Vermögen, monatliche Check-ins, Erinnerungen | Ja | Ja |
 | Werbung („Gesponsert“) | Ja | Nein |
+| Spar- und Anlageziele | 1 Ziel | Unbegrenzt |
+| Diagramme (Nettovermögen, Schulden, Zinsen pro Jahr, Vermögensaufteilung) | Nur Vorschau | Ja |
 | Zusatzfunktionen (etwa eigene Was-wäre-wenn-Simulationen, Export, längerer Verlauf) | Eingeschränkt | Ja |
 
 Funktionen können sich im Laufe der Zeit ändern. Wir entfernen keine Funktion, für die Sie bezahlt haben, ohne eine angemessene Alternative oder, soweit gesetzlich erforderlich, eine Erstattung anzubieten.
@@ -61,40 +63,59 @@ Die folgenden Preise sind in Euro angegeben und enthalten die anfallenden Steuer
 
 Die kostenlose Version zeigt als „Gesponsert“ gekennzeichnete Anzeigen, die von Dritten ausgeliefert werden. Wir kontrollieren die Produkte, Aussagen oder Websites von Werbetreibenden nicht und sind dafür nicht verantwortlich; Anzeigen sind keine Empfehlungen von uns. Wie Werbedaten behandelt werden, steht in der [Datenschutzerklärung](../privacy/). Klicken Sie nicht auf Anzeigen und nutzen Sie sie nicht in einer Weise, die gegen die Regeln des Werbenetzwerks verstößt.
 
-## 7. Ihre Pflichten
+## 7. Freunde einladen und kostenloses Plus
+
+**So funktioniert es.** In der App können Sie Ihren persönlichen Einladungscode teilen. Wenn jemand, der die App zuvor nicht genutzt hat, sie auf seinem eigenen Apple-Gerät installiert, die Einrichtung abschließt und Ihren Code eingibt, erhalten Sie **30 Tage Vung Plus** kostenlos. Die eingeladene Person erhält keine Prämie, sofern wir in der App nichts anderes angeben.
+
+**Regeln.**
+- Ein Code kann pro Person und pro Gerät nur einmal eingegeben werden. Sie können Ihren eigenen Code nicht verwenden, und zwei Personen können nicht gegenseitig ihre Codes verwenden.
+- Um gefälschte und automatisierte Einladungen zu verhindern, bittet die App Apple um die Bestätigung, dass es sich um eine echte Kopie handelt, die auf einem echten Apple-Gerät läuft (App Attest). Wo diese Prüfung nicht möglich ist, zum Beispiel in einem Simulator, kann kein Code verwendet werden.
+- Sie können über Einladungen in einem Zeitraum von 12 Monaten bis zu **12 Monate** kostenloses Plus erhalten.
+- Kostenlose Zeit wird an bereits vorhandene Plus-Zeit angehängt. Sie verlängert sich nicht automatisch, wird nicht zu einem kostenpflichtigen Abonnement, und es wird Ihnen dafür nie etwas berechnet.
+- Prämien haben **keinen Geldwert** und können nicht umgetauscht, verkauft oder übertragen werden.
+- Teilen Sie Ihren Code nur mit Personen, die Sie kennen, und nutzen Sie keinen Spam, keine bezahlte Werbung mit unserer Marke, keine Fake-Konten, keine Skripte und keine wiederholten Neuinstallationen, um Prämien zu sammeln. Wir können auf diese Weise erlangte Prämien verweigern, entfernen oder rückgängig machen und die beteiligten Personen von dem Programm ausschließen.
+- Wir können das Programm jederzeit ändern oder beenden. Bereits gewährte Prämien bleiben bis zu ihrem Ablauf bestehen, sofern sie nicht unter Verstoß gegen diese Regeln erlangt wurden.
+
+**Kostenloses Plus von uns.** Wir können kostenloses Plus für einen Zeitraum oder auf Lebenszeit gewähren, zum Beispiel für Support oder Tests. Solches Plus ist eine kostenlose Leistung ohne Geldwert. Von uns gewährtes Plus auf Lebenszeit gilt so lange, wie wir die App und Vung Plus anbieten.
+
+**Apple ist nicht beteiligt.** Das Einladungsprogramm wird von uns betrieben. Apple ist kein Sponsor des Programms und nicht dafür verantwortlich.
+
+Die für das Programm verwendeten Daten sind in der [Datenschutzerklärung](../privacy/), Abschnitt 4.2, beschrieben.
+
+## 8. Ihre Pflichten
 
 - Sie sind mindestens **18 Jahre** alt oder volljährig nach dem Recht Ihres Landes, wenn dieses Alter höher ist.
 - Sie geben Informationen so genau wie möglich ein und sind für Entscheidungen verantwortlich, die Sie mithilfe der App treffen.
-- Sie kopieren, verändern oder dekompilieren (Reverse Engineering) die App nicht, missbrauchen sie nicht und versuchen nicht, Werbung, Zahlungen oder technische Beschränkungen zu umgehen, außer soweit das Gesetz es erlaubt.
+- Sie kopieren, verändern oder dekompilieren (Reverse Engineering) die App nicht, missbrauchen sie nicht und versuchen nicht, Werbung, Zahlungen, die Prüfungen des Einladungsprogramms oder technische Beschränkungen zu umgehen, außer soweit das Gesetz es erlaubt.
 - Sie halten Ihr Gerät sicher. Ihre Daten werden auf Ihrem Gerät gespeichert, schützen Sie es daher mit einem Code oder einer biometrischen Sperre.
 
-## 8. Ihre Daten und Sicherungen
+## 9. Ihre Daten und Sicherungen
 
-Ihre Daten werden ausschließlich auf Ihrem Gerät gespeichert. **Wir können nicht darauf zugreifen und sie nicht wiederherstellen.** Wenn Sie die App löschen, Ihr Gerät zurücksetzen oder verlieren oder „Alle Daten löschen“ nutzen, können Ihre Daten dauerhaft verloren gehen. Die eigene Sicherung Ihres Geräts kann eine Kopie enthalten, wenn Sie sie aktiviert haben. Für Sicherungen, auf die Sie sich verlassen, sind Sie selbst verantwortlich, zum Beispiel durch die Exportfunktion, falls Sie Plus haben.
+Ihre Finanzdaten werden ausschließlich auf Ihrem Gerät gespeichert. **Wir können nicht darauf zugreifen und sie nicht wiederherstellen.** (Unser Server enthält nur die in der Datenschutzerklärung beschriebenen Datensätze zu Einladungen und kostenlosem Plus.) Wenn Sie die App löschen, Ihr Gerät zurücksetzen oder verlieren oder „Alle Daten löschen“ nutzen, können Ihre Daten dauerhaft verloren gehen. Die eigene Sicherung Ihres Geräts kann eine Kopie enthalten, wenn Sie sie aktiviert haben. Für Sicherungen, auf die Sie sich verlassen, sind Sie selbst verantwortlich, zum Beispiel durch die Exportfunktion, falls Sie Plus haben.
 
-## 9. Änderungen und Verfügbarkeit
+## 10. Änderungen und Verfügbarkeit
 
 Wir können die App aktualisieren, Funktionen hinzufügen oder ändern oder sie nicht mehr anbieten. Wir bemühen uns, sie verfügbar zu halten, sie wird jedoch im bestehenden Zustand bereitgestellt und kann Fehler enthalten oder nicht verfügbar sein. Wir können diese Bedingungen ändern; über wesentliche Änderungen informieren wir Sie in der App, und wenn Sie nicht einverstanden sind, können Sie die Nutzung der App beenden und Ihr Abonnement kündigen.
 
-## 10. Geistiges Eigentum
+## 11. Geistiges Eigentum
 
 Wir (oder unsere Lizenzgeber) sind Eigentümer der App sowie ihres Namens, Designs und ihrer Inhalte. Wir gewähren Ihnen eine persönliche, nicht ausschließliche, nicht übertragbare und widerrufliche Lizenz, die App auf Ihren eigenen Geräten für Ihren eigenen persönlichen, nicht gewerblichen Gebrauch zu nutzen, vorbehaltlich dieser Bedingungen und der Apple-EULA. Die Daten, die Sie eingeben, gehören Ihnen.
 
-## 11. Gewährleistung und Haftung
+## 12. Gewährleistung und Haftung
 
 - Die App wird, soweit gesetzlich zulässig, „wie besehen“ und „wie verfügbar“ bereitgestellt. Wir garantieren nicht, dass sie fehlerfrei ist oder dass ihre Ergebnisse, Punktzahlen oder Referenzdaten richtig oder für Ihre Zwecke geeignet sind.
 - Soweit gesetzlich zulässig, haften wir nicht für mittelbare Schäden oder Folgeschäden, entgangenen Gewinn, den Verlust von auf Ihrem Gerät gespeicherten Daten oder für finanzielle Entscheidungen, die Sie mithilfe der App treffen.
 - Wir schließen die Haftung nicht aus für Tod oder Körperverletzung, für Vorsatz oder grobe Fahrlässigkeit oder für alles, was nach zwingendem Recht nicht beschränkt werden kann.
 - **Wenn Sie Verbraucher sind, berührt nichts in diesen Bedingungen Ihre zwingenden gesetzlichen Rechte**, einschließlich der Rechte nach dem Verbraucherrecht Ihres Landes in Bezug auf digitale Inhalte und digitale Dienstleistungen.
 
-## 12. Beendigung der Nutzung
+## 13. Beendigung der Nutzung
 
 Sie können die Nutzung der App jederzeit beenden, indem Sie sie löschen (und ein etwaiges Abonnement kündigen). Wir können Ihren Zugang sperren oder beenden, wenn Sie schwerwiegend gegen diese Bedingungen verstoßen. Abschnitte, die ihrer Natur nach fortgelten sollen (zum Beispiel geistiges Eigentum und Haftung), gelten danach weiter.
 
-## 13. Anwendbares Recht und Streitigkeiten
+## 14. Anwendbares Recht und Streitigkeiten
 
 Diese Bedingungen unterliegen dem Recht **Finnlands**. Wenn Sie Verbraucher in der EU/im EWR sind, behalten Sie zudem den Schutz des zwingenden Verbraucherrechts des Landes, in dem Sie leben, und können vor den Gerichten dieses Landes klagen. In Finnland können Verbraucher kostenlose Beratung bei der Verbraucherberatung der Wettbewerbs- und Verbraucherbehörde erhalten und Streitigkeiten vor die Verbraucherbeschwerdekommission (kuluttajariitalautakunta) bringen. Für sonstige Nutzer sind die Gerichte Finnlands zuständig.
 
-## 14. Kontakt
+## 15. Kontakt
 
-[OPERATOR NAME], [STREET ADDRESS, POSTCODE, CITY], Finnland · [CONTACT EMAIL]
+Thinh Dinh, Kytötie 71, 04430 Järvenpää, Finnland · tikki.dinh@gmail.com

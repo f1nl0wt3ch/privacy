@@ -1,6 +1,6 @@
 ---
 title: Chính sách quyền riêng tư – Vung
-permalink: /vi/privacy/
+permalink: /vung/vi/privacy/
 lang: vi
 ---
 

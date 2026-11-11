@@ -14,8 +14,8 @@ The policy is only as good as the app is true to it. Apple compares the App Priv
 9. **Euribor request** goes only to the ECB data portal and contains no user data (already true).
 
 ## B. App Store Connect
-- **Privacy Policy URL** → `.../vung-policy/privacy/`. **Support URL** → `.../vung-policy/support/`.
-- **Terms of Use:** if you use Apple's standard EULA, put the link `.../vung-policy/terms/` in the app description (the policy says Apple's EULA applies and the terms supplement it).
+- **Privacy Policy URL** → `https://privacy.thinhdinh.tech/vung/privacy/`. **Support URL** → `https://privacy.thinhdinh.tech/vung/support/`.
+- **Terms of Use:** if you use Apple's standard EULA, put the link `https://privacy.thinhdinh.tech/vung/terms/` in the app description (the policy says Apple's EULA applies and the terms supplement it).
 - **Trader status (EU):** enter your name, address, email and phone as a trader, since the app has paid features.
 - **App Privacy answers (draft, verify against the SDK documentation when you integrate):**
   - *Purchases → Purchase history*: collected (RevenueCat), not used for tracking.

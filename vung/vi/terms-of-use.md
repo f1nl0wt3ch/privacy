@@ -1,6 +1,6 @@
 ---
 title: Điều khoản sử dụng – Vung
-permalink: /vi/terms/
+permalink: /vung/vi/terms/
 lang: vi
 ---
 

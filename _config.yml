@@ -1,0 +1,13 @@
+title: Privacy and legal pages
+description: Privacy Policy, Terms of Use and Support for the Vung and vTasku apps
+theme: jekyll-theme-minimal
+lang: en
+
+# Sources and maintainer notes that must not be published.
+exclude:
+  - README.md
+  - vtasku/README.md
+  - vtasku/build.mjs
+  - vtasku/site.config.json
+  - vtasku/content
+  - vung/only-local

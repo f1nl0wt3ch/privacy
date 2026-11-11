@@ -1,6 +1,6 @@
 ---
 title: Hỗ trợ – Vung
-permalink: /vi/support/
+permalink: /vung/vi/support/
 lang: vi
 ---
 

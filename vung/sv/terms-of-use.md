@@ -1,16 +1,16 @@
 ---
 title: Användarvillkor – Vung
-permalink: /sv/terms/
+permalink: /vung/sv/terms/
 lang: sv
 ---
 
 # Användarvillkor
 
-**App:** Vung ("Appen") · **Senast uppdaterad:** 7 november 2026 · **Gäller från:** [RELEASE DATE]
+**App:** Vung ("Appen") · **Senast uppdaterad:** 9 november 2026 · **Gäller från:** 15 november 2026
 
 [English](../../terms/) (den engelska texten är originalet; om översättningen avviker gäller den engelska texten, om inte lagen i ditt land ger dig starkare rättigheter) · [Suomi](../../fi/terms/) · [Deutsch](../../de/terms/) · [Tiếng Việt](../../vi/terms/)
 
-Dessa villkor gäller mellan dig och **[OPERATOR NAME]** [Business ID (Y-tunnus), if any], [STREET ADDRESS, POSTCODE, CITY], Finland, [CONTACT EMAIL] ("vi"). Genom att ladda ner eller använda Appen godkänner du villkoren. Om du inte godkänner dem ska du inte använda Appen.
+Dessa villkor gäller mellan dig och **Thinh Dinh**, Kytötie 71, 04430 Järvenpää, Finland, tikki.dinh@gmail.com ("vi"). Genom att ladda ner eller använda Appen godkänner du villkoren. Om du inte godkänner dem ska du inte använda Appen.
 
 ## 1. Apples standardvillkor
 
@@ -33,6 +33,8 @@ Appen hjälper dig att registrera och förstå din egen ekonomi: månatliga kass
 |---|---|---|
 | Poäng, skulder, tillgångar, månadsavstämningar, påminnelser | Ja | Ja |
 | Reklam ("Sponsrat") | Ja | Nej |
+| Sparmål och investeringsmål | 1 mål | Obegränsat |
+| Diagram (nettoförmögenhet, skulder, ränta per år, tillgångsfördelning) | Endast förhandsvisning | Ja |
 | Extrafunktioner (till exempel egna "tänk om"-simuleringar, export, längre historik) | Begränsat | Ja |
 
 Funktioner kan ändras över tid. Vi tar inte bort en funktion du har betalat för utan att erbjuda ett rimligt alternativ eller återbetalning i den mån lagen kräver det.
@@ -61,40 +63,59 @@ Priserna nedan anges i euro inklusive tillämpliga skatter där lagen kräver de
 
 Gratisversionen visar annonser märkta "Sponsrat", som levereras av tredje part. Vi kontrollerar inte och ansvarar inte för annonsörers produkter, påståenden eller webbplatser, och annonser är inga rekommendationer från oss. Se [Integritetspolicy](../privacy/) för hur annonsdata hanteras. Klicka inte på annonser och använd dem inte på sätt som strider mot annonsnätverkets regler.
 
-## 7. Ditt ansvar
+## 7. Bjud in vänner och gratis Plus
+
+**Så fungerar det.** I Appen kan du dela din personliga inbjudningskod. När någon som inte har använt Appen tidigare installerar den på sin egen Apple-enhet, slutför konfigurationen och anger din kod får du **30 dagar Vung Plus** gratis. Den inbjudna vännen får ingen belöning om vi inte anger något annat i Appen.
+
+**Regler.**
+- En kod kan bara anges en gång per person och per enhet. Du kan inte använda din egen kod, och två personer kan inte använda varandras koder.
+- För att stoppa falska och automatiserade inbjudningar ber Appen Apple bekräfta att det är en äkta kopia som körs på en riktig Apple-enhet (App Attest). En kod kan inte användas där denna kontroll inte är möjlig, till exempel i en simulator.
+- Du kan få upp till **12 månader** gratis Plus genom inbjudningar under en 12-månadersperiod.
+- Gratistid läggs till efter den Plus-tid du redan har. Den förnyas inte automatiskt, omvandlas inte till en betald prenumeration och du debiteras aldrig för den.
+- Belöningar har **inget kontantvärde** och kan inte bytas, säljas eller överlåtas.
+- Dela din kod bara med personer du känner, och använd inte skräppost, betald reklam med vårt varumärke, falska konton, skript eller upprepade ominstallationer för att samla belöningar. Vi kan neka, ta bort eller återkalla belöningar som erhållits på det sättet och avsluta de inblandade personernas deltagande i programmet.
+- Vi kan ändra eller avsluta programmet när som helst. Belöningar som redan har getts gäller tills de löper ut, om de inte har erhållits i strid med dessa regler.
+
+**Gratis Plus från oss.** Vi kan ge gratis Plus under en period eller på livstid, till exempel för support eller testning. Sådant Plus är en kostnadsfri förmån utan kontantvärde. Plus på livstid som vi ger gäller så länge vi erbjuder Appen och Vung Plus.
+
+**Apple är inte inblandat.** Inbjudningsprogrammet drivs av oss. Apple är inte sponsor av det och ansvarar inte för det.
+
+De uppgifter som används för programmet beskrivs i [Integritetspolicy](../privacy/), avsnitt 4.2.
+
+## 8. Ditt ansvar
 
 - Du är minst **18 år**, eller myndig enligt lagen i ditt land om den åldern är högre.
 - Du anger uppgifter så korrekt du kan och är ansvarig för de beslut du fattar med hjälp av Appen.
-- Du kopierar, ändrar, bakåtkompilerar (reverse engineering) eller missbrukar inte Appen och försöker inte kringgå reklam, betalningar eller tekniska begränsningar, utom i den mån lagen tillåter det.
+- Du kopierar, ändrar, bakåtkompilerar (reverse engineering) eller missbrukar inte Appen och försöker inte kringgå reklam, betalningar, inbjudningsprogrammets kontroller eller tekniska begränsningar, utom i den mån lagen tillåter det.
 - Du håller din enhet säker. Dina uppgifter lagras på din enhet, så skydda den med en kod eller biometrisk låsning.
 
-## 8. Dina uppgifter och säkerhetskopior
+## 9. Dina uppgifter och säkerhetskopior
 
-Dina uppgifter lagras endast på din enhet. **Vi kan inte komma åt eller återställa dem.** Om du tar bort Appen, återställer eller tappar din enhet eller använder "Radera alla data" kan dina uppgifter gå förlorade för alltid. Enhetens egen säkerhetskopia kan behålla en kopia om du har aktiverat den. Du ansvarar för att göra de säkerhetskopior du förlitar dig på, till exempel med exportfunktionen om du har Plus.
+Dina ekonomiska uppgifter lagras endast på din enhet. **Vi kan inte komma åt eller återställa dem.** (Vår server innehåller bara de uppgifter om inbjudningar och gratis Plus som beskrivs i integritetspolicyn.) Om du tar bort Appen, återställer eller tappar din enhet eller använder "Radera alla data" kan dina uppgifter gå förlorade för alltid. Enhetens egen säkerhetskopia kan behålla en kopia om du har aktiverat den. Du ansvarar för att göra de säkerhetskopior du förlitar dig på, till exempel med exportfunktionen om du har Plus.
 
-## 9. Ändringar och tillgänglighet
+## 10. Ändringar och tillgänglighet
 
 Vi kan uppdatera Appen, lägga till eller ändra funktioner eller sluta erbjuda den. Vi försöker hålla den tillgänglig, men den tillhandahålls i befintligt skick och kan innehålla fel eller vara otillgänglig. Vi kan ändra dessa villkor; vid väsentliga ändringar informerar vi dig i Appen, och om du inte godkänner dem kan du sluta använda Appen och avsluta din prenumeration.
 
-## 10. Immateriella rättigheter
+## 11. Immateriella rättigheter
 
 Vi (eller våra licensgivare) äger Appen samt dess namn, design och innehåll. Vi ger dig en personlig, icke-exklusiv, icke-överlåtbar och återkallelig licens att använda Appen på dina egna enheter för ditt eget personliga, icke-kommersiella bruk, enligt dessa villkor och Apples EULA. De uppgifter du anger tillhör dig.
 
-## 11. Garantier och ansvar
+## 12. Garantier och ansvar
 
 - Appen tillhandahålls "i befintligt skick" och "i mån av tillgång" i den utsträckning lagen tillåter. Vi garanterar inte att den är felfri eller att dess resultat, poäng eller referensdata är korrekta eller lämpliga för dina syften.
 - I den utsträckning lagen tillåter ansvarar vi inte för indirekta skador eller följdskador, utebliven vinst, förlust av uppgifter som lagras på din enhet eller för finansiella beslut du fattar med hjälp av Appen.
 - Vi begränsar inte ansvaret för dödsfall eller personskada, uppsåt eller grov vårdslöshet eller något som inte kan begränsas enligt tvingande lag.
 - **Om du är konsument påverkar inget i dessa villkor dina tvingande lagstadgade rättigheter**, inklusive rättigheter enligt konsumentlagstiftningen i ditt land om digitalt innehåll och digitala tjänster.
 
-## 12. Avslut av användning
+## 13. Avslut av användning
 
 Du kan sluta använda Appen när som helst genom att ta bort den (och avsluta eventuell prenumeration). Vi kan stänga av eller avsluta din åtkomst om du allvarligt bryter mot dessa villkor. Avsnitt som till sin natur ska fortsätta gälla (till exempel immateriella rättigheter och ansvar) fortsätter att gälla efter det.
 
-## 13. Tillämplig lag och tvister
+## 14. Tillämplig lag och tvister
 
 Dessa villkor regleras av **finsk** lag. Om du är konsument inom EU/EES behåller du också skyddet i den tvingande konsumentlagstiftningen i det land där du bor och kan väcka talan vid domstol i det landet. I Finland kan konsumenter få kostnadsfri rådgivning från Konkurrens- och konsumentverkets konsumentrådgivning och föra tvister till konsumenttvistenämnden (kuluttajariitalautakunta). För övriga användare har finländska domstolar behörighet.
 
-## 14. Kontakt
+## 15. Kontakt
 
-[OPERATOR NAME], [STREET ADDRESS, POSTCODE, CITY], Finland · [CONTACT EMAIL]
+Thinh Dinh, Kytötie 71, 04430 Järvenpää, Finland · tikki.dinh@gmail.com

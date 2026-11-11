@@ -1,6 +1,6 @@
 ---
 title: Support – Vung
-permalink: /support/
+permalink: /vung/support/
 ---
 
 # Support

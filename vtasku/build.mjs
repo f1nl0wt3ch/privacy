@@ -1,13 +1,15 @@
-// Builds the static site into docs/ from content/*.mjs and site.config.json.
+// Builds the static pages from content/*.mjs and site.config.json into this folder,
+// next to the sources, so that GitHub Pages serves them under /vtasku/.
+// Run it from this folder.
 // Usage: node build.mjs            (placeholders stay visible, highlighted)
 //        node build.mjs --strict   (fails while any [PLACEHOLDER] is left: use before App Review)
-import { mkdirSync, readFileSync, rmSync, writeFileSync, readdirSync, statSync, existsSync } from 'node:fs';
+import { mkdirSync, readFileSync, rmSync, writeFileSync, statSync, existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 
 const strict = process.argv.includes('--strict');
 const cfg = JSON.parse(readFileSync('site.config.json', 'utf8'));
-const OUT = 'docs';
-// English is the default at the site root; every other language lives in its own folder (vi/, de/, sv/, fi/).
+const KINDS = ['privacy', 'terms', 'support'];
+// English is the default at the top of the folder; every other language lives in its own folder (vi/, de/, sv/, fi/).
 const CODES = ['en', 'vi', 'de', 'sv', 'fi'];
 const langs = [];
 for (const c of CODES) langs.push((await import(`./content/${c}.mjs`)).default);
@@ -15,11 +17,7 @@ const dirOf = (code) => (code === 'en' ? '' : `${code}/`);
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const isPlaceholder = (v) => /\[[^\]]+\]/.test(v) || !String(v).trim();
-const left = Object.entries(cfg).filter(([k, v]) => k !== 'customDomain' && isPlaceholder(v)).map(([k]) => k);
-// With a custom domain (Settings → Pages → Custom domain) the pages live at the site root and docs/CNAME is written.
-const DOMAIN = String(cfg.customDomain ?? '').trim().toLowerCase();
-if (DOMAIN && !/^([a-z0-9-]+\.)+[a-z]{2,}$/.test(DOMAIN)) { console.error('customDomain is not a valid host name:', DOMAIN); process.exit(1); }
-const PREFIX = DOMAIN ? '' : 'vtasku/';
+const left = Object.entries(cfg).filter(([, v]) => isPlaceholder(v)).map(([k]) => k);
 if (strict && left.length) { console.error('Fill these in site.config.json first:', left.join(', ')); process.exit(1); }
 
 const fill = (html, base) => html
@@ -46,7 +44,7 @@ function page({ L, kind, depth }) {
   const suffix = dirOf(L.lang);
   const href = (k) => `${base}${k}/${suffix}`;
   const body = kind === 'home'
-    ? `<h1>${esc(L.home.title)}</h1><p>${esc(L.home.lead)}</p><ul>${['privacy', 'terms', 'support'].map((k) => `<li><a href="${href(k)}">${esc(L.nav[k])}</a></li>`).join('')}</ul>`
+    ? `<h1>${esc(L.home.title)}</h1><p>${esc(L.home.lead)}</p><ul>${KINDS.map((k) => `<li><a href="${href(k)}">${esc(L.nav[k])}</a></li>`).join('')}</ul>`
     : `<h1>${esc(L[kind].title)}</h1><p class="meta">${esc(L.updated)}: ${fill('{{effectiveDate}}', base)}</p>${fill(L[kind].html, base)}`;
   const urlFor = (code) => (kind === 'home' ? `${base}${dirOf(code)}` : `${base}${kind}/${dirOf(code)}`);
   const switcher = langs.filter((x) => x.lang !== L.lang)
@@ -57,29 +55,27 @@ function page({ L, kind, depth }) {
 <html lang="${L.lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>${alternates}<meta name="color-scheme" content="light dark"><style>${css}</style></head>
 <body><header><a class="brand" href="${base}">vTasku</a>
-<nav>${['privacy', 'terms', 'support'].map((k) => `<a href="${href(k)}">${esc(L.nav[k])}</a>`).join('')}</nav>
+<nav>${KINDS.map((k) => `<a href="${href(k)}">${esc(L.nav[k])}</a>`).join('')}</nav>
 <span class="lang">${switcher}</span></header>
 <main>${body}</main>
 <footer>© vTasku · ${fill('{{operator}}', base)} · <a href="mailto:${esc(cfg.email)}">${fill('{{email}}', base)}</a></footer></body></html>
 `;
 }
 
-rmSync(OUT, { recursive: true, force: true });
-const write = (p, s) => { mkdirSync(dirname(join(OUT, p)), { recursive: true }); writeFileSync(join(OUT, p), s); };
+// Only the generated paths are removed; the sources in this folder are never touched.
+const GENERATED = ['index.html', ...KINDS, ...CODES.filter((c) => c !== 'en')];
+for (const p of GENERATED) rmSync(p, { recursive: true, force: true });
+const written = [];
+const write = (p, s) => { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, s); written.push(p); };
 for (const L of langs) {
   const sub = L.lang !== 'en';
-  write(`${PREFIX}${dirOf(L.lang)}index.html`, page({ L, kind: 'home', depth: sub ? 1 : 0 }));
-  for (const kind of ['privacy', 'terms', 'support']) write(`${PREFIX}${kind}/${dirOf(L.lang)}index.html`, page({ L, kind, depth: sub ? 2 : 1 }));
+  write(`${dirOf(L.lang)}index.html`, page({ L, kind: 'home', depth: sub ? 1 : 0 }));
+  for (const kind of KINDS) write(`${kind}/${dirOf(L.lang)}index.html`, page({ L, kind, depth: sub ? 2 : 1 }));
 }
-if (PREFIX) write('index.html', '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=vtasku/"><title>vTasku</title><a href="vtasku/">vTasku</a>\n');
-if (DOMAIN) write('CNAME', `${DOMAIN}\n`);
-write('.nojekyll', '');
-write('app-ads.txt', readFileSync('app-ads.txt', 'utf8'));
 
-// Check: every relative link points to a file that was built.
+// Check: every relative link points to a page that was built.
 let bad = 0;
-const walk = (d) => readdirSync(d).flatMap((f) => (statSync(join(d, f)).isDirectory() ? walk(join(d, f)) : [join(d, f)]));
-for (const f of walk(OUT).filter((f) => f.endsWith('.html'))) {
+for (const f of written) {
   const html = readFileSync(f, 'utf8');
   if (html.includes('{{')) { console.error('unfilled token in', f); bad++; }
   for (const m of html.matchAll(/(?:href|src)="([^"#:]+)"/g)) {
@@ -88,4 +84,4 @@ for (const f of walk(OUT).filter((f) => f.endsWith('.html'))) {
   }
 }
 if (bad) process.exit(1);
-console.log(`built ${walk(OUT).length} files in docs/` + (left.length ? `; still to fill: ${left.join(', ')}` : '; no placeholders left'));
+console.log(`built ${written.length} pages` + (left.length ? `; still to fill: ${left.join(', ')}` : '; no placeholders left'));
