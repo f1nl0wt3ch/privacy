@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tietosuojakäytäntö · vTasku</title><link rel="alternate" hreflang="en" href="../../privacy/"><link rel="alternate" hreflang="vi" href="../../privacy/vi/"><link rel="alternate" hreflang="de" href="../../privacy/de/"><link rel="alternate" hreflang="sv" href="../../privacy/sv/"><link rel="alternate" hreflang="fi" href="../../privacy/fi/"><meta name="color-scheme" content="light dark"><style>:root{--bg:#fff;--fg:#1b1f23;--muted:#5b6670;--line:#e3e7eb;--link:#0a6a4a;--mark:#fff3b0}
+@media(prefers-color-scheme:dark){:root{--bg:#101417;--fg:#e8ecef;--muted:#9aa6b0;--line:#26303a;--link:#5fd0a0;--mark:#5a4b00}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header,main,footer{max-width:720px;margin:0 auto;padding:0 16px}header{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;padding-top:20px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.lang{margin-left:auto}@media(max-width:560px){nav{order:3;flex-basis:100%}}.brand{font-weight:700;font-size:1.15rem;color:var(--fg);text-decoration:none}nav{display:flex;flex-wrap:wrap;gap:6px 16px;flex:1}nav a,.lang a{color:var(--link)}
+h1{font-size:1.7rem;line-height:1.25;margin:28px 0 8px}h2{font-size:1.2rem;margin:28px 0 6px}p,li{margin:8px 0}a{color:var(--link)}
+table{width:100%;border-collapse:collapse;font-size:.95rem;margin:12px 0}th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}th{background:rgba(127,127,127,.1)}
+code{background:rgba(127,127,127,.15);padding:1px 5px;border-radius:4px;font-size:.9em;word-break:break-all}mark{background:var(--mark);color:inherit;padding:0 3px}
+.meta{color:var(--muted);font-size:.9rem}footer{color:var(--muted);font-size:.9rem;padding-top:24px;padding-bottom:40px}</style></head>
+<body><header><a class="brand" href="../../">vTasku</a>
+<nav><a href="../../privacy/fi/">Tietosuojakäytäntö</a><a href="../../terms/fi/">Käyttöehdot</a><a href="../../support/fi/">Tuki</a></nav>
+<span class="lang"><a href="../../privacy/" hreflang="en" lang="en">English</a> · <a href="../../privacy/vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../../privacy/de/" hreflang="de" lang="de">Deutsch</a> · <a href="../../privacy/sv/" hreflang="sv" lang="sv">Svenska</a></span></header>
+<main><h1>Tietosuojakäytäntö</h1><p class="meta">Voimassa alkaen: 2026-11-15</p>
+<p>Tämä käytäntö kertoo, mitä vTasku (”sovellus”) tekee tiedoille. Lyhyesti: <strong>menosi, muistiinpanosi, kuittikuvasi ja budjettisi pysyvät laitteellasi. Meillä ei ole käyttäjätilejä emmekä voi lukea niitä.</strong></p>
+
+<h2>1. Rekisterinpitäjä</h2>
+<p>vTaskua ylläpitää Thinh Dinh, Finland. Yhteystiedot tietosuojakysymyksiin: <a href="mailto:tikki.dinh@gmail.com">tikki.dinh@gmail.com</a>.</p>
+
+<h2>2. Mikä pysyy laitteellasi</h2>
+<p>Kaikki menot, luokat, muistiinpanot, kuittikuvat, budjetit, toistuvat menot, haut ja asetukset tallennetaan vain laitteellesi. vTasku ei yhdisty pankkiisi tai lompakkoosi. Apple Pay -tallennus saa vain summan ja kauppiaan nimen, jotka <em>itse</em> määrität Apple-oikotiessä, ja säilyttää ne laitteellasi.</p>
+
+<h2>3. Mikä poistuu laitteeltasi</h2>
+<table>
+<tr><th>Toiminto</th><th>Mitä lähetetään</th><th>Kenelle</th></tr>
+<tr><td>Mainokset (Free-paketti)</td><td>Laitetunnisteet, IP-osoite (likimääräinen sijainti), mainosten käyttö, diagnostiikka</td><td>Google AdMob</td></tr>
+<tr><td>Plus-osto</td><td>Anonyymi käyttäjätunnus ja ostohistoriasi</td><td>RevenueCat sekä Apple App Store / Google Play</td></tr>
+<tr><td>Kutsukoodit (kun saatavilla)</td><td>Laitteellasi luotu satunnainen tunnus, kutsukoodisi, antamasi koodi ja Apple App Attest -avain (ks. kohta 7)</td><td>Palvelimemme</td></tr>
+<tr><td>iCloud-varmuuskopio (Plus, valinnainen)</td><td>Kopio menoistasi, budjeteistasi, nimikkeistäsi ja toistuvista menoistasi</td><td>Oma iCloud-tilisi, Applen säilyttämä</td></tr>
+</table>
+<p>iCloud-varmuuskopio on pois päältä, kunnes otat sen käyttöön Asetuksissa. Apple säilyttää kopion iCloud-tililläsi, ja vain vTasku laitteillasi voi lukea sen; meillä ei ole pääsyä siihen. Poista kaikki tiedot poistaa myös iCloud-kopion.</p>
+<p>Mikään muu ei poistu laitteeltasi. Emme käytä tietojasi analytiikka- tai tekoälypalveluissa. Emme käytä sovelluksen tietoja seuraamaan sinua muissa sovelluksissa ja verkkosivustoilla.</p>
+
+<h2>4. Mainokset ja valintasi</h2>
+<p>Free-paketti näyttää Google AdMobin tarjoamia mainoksia. Google voi saada laitetunnisteita, IP-osoitteesi, tietoja mainosten käytöstä ja diagnostiikkaa. iOS:ssä mainokset eivät ole personoituja, eikä vTasku pyydä lupaa seurata sinua sovellusten välillä. Euroopan talousalueella, Yhdistyneessä kuningaskunnassa ja Sveitsissä pyydämme ensin suostumuksesi, ja voit muuttaa valintaasi milloin tahansa Asetuksissa (Mainosten tietosuojavalinnat). Plus-käyttäjät eivät näe mainoksia, eikä sovellus lähetä tietoja AdMobille. Katso <a href="https://policies.google.com/technologies/partner-sites">miten Google käyttää tietoja</a>.</p>
+
+<h2>5. Ostot</h2>
+<p>Ostoja käsittelee Apple App Store tai Google Play; emme koskaan näe kortti- tai maksutietojasi. Plus-oikeutesi vahvistamiseen käytämme RevenueCatia, joka saa anonyymin käyttäjätunnuksen ja ostohistoriasi.</p>
+
+<h2>6. Jakaminen Vung-sovelluksen kanssa</h2>
+<p>Jos otat sen käyttöön, vTasku kirjoittaa kuukausisummat luokittain tiedostoon laitteellasi, jotta saman kehittäjän Vung-sovellus voi lukea ne. Tietoja ei siirretä verkon yli. Yksittäisiä menoja, paikkoja, muistiinpanoja tai kuittikuvia ei jaeta. Voit poistaa jakamisen käytöstä ja poistaa jaetun tiedoston Asetuksissa.</p>
+
+<h2>7. Kutsukoodit ja Plus-bonusaika</h2>
+<p>Jos käytät kutsukoodeja, palvelimemme tallentaa: laitteellasi luodun satunnaisen käyttäjätunnuksen, kutsukoodisi, mahdollisen Plus-bonusajan päättymispäivän sekä Apple App Attest -avaimen julkisen avaimen ja laskurin. App Attestilla tarkistamme, että pyynnöt tulevat aidosta sovelluksen kopiosta, ja Apple osallistuu tähän tarkistukseen. Emme tallenna nimeäsi, sähköpostiosoitettasi, IP-osoitettasi tai menojasi. Kun käytät sovelluksessa toimintoa <em>Poista kaikki tiedot</em>, palvelinrekisterisi poistetaan. Kutsutietue voi jäädä ilman mitään tunnusta, jotta vuosirajat toimivat edelleen.</p>
+
+<h2>8. Palvelinympäristö ja lokit</h2>
+<p>Palvelin toimii Herokussa alueella the European Union (Ireland). Herokun reitityslokit voivat sisältää IP-osoitteita lyhyen aikaa; omat lokimme sisältävät vain pyynnön polun, tilakoodin ja keston. Käytämme IP-osoitettasi vain muistissa väärinkäytön rajoittamiseen.</p>
+
+<h2>9. Kuinka kauan säilytämme tietoja</h2>
+<p>Laitteellasi olevat tiedot säilyvät, kunnes poistat ne tai poistat sovelluksen. Palvelintietueet säilyvät, kunnes käytät toimintoa Poista kaikki tiedot tai pyydät meitä poistamaan ne. Kolmannet osapuolet (Google, RevenueCat, Apple) säilyttävät tietoja omien käytäntöjensä mukaan.</p>
+
+<h2>10. Oikeutesi</h2>
+<p>Voit viedä tietosi (CSV) ja poistaa kaiken sovelluksessa (Asetukset → Tiedot ja yksityisyys). Kolmansien osapuolten tai palvelimemme hallussa olevien tietojen osalta voit pyytää pääsyä, oikaisua, poistamista tai vastustaa käsittelyä asuinmaasi lain mukaan (esimerkiksi EU:n/Yhdistyneen kuningaskunnan GDPR tai Vietnamin henkilötietolaki) lähettämällä sähköpostia osoitteeseen <a href="mailto:tikki.dinh@gmail.com">tikki.dinh@gmail.com</a>. Vastaamme 30 päivän kuluessa. Voit myös tehdä valituksen tietosuojaviranomaiselle.</p>
+
+<h2>11. Kansainväliset siirrot</h2>
+<p>Google ja RevenueCat voivat käsitellä tietoja muissa kuin asuinmaassasi sijaitsevissa maissa, myös Yhdysvalloissa. Ne nojaavat suojatoimiin, kuten vakiosopimuslausekkeisiin; katso niiden käytännöt.</p>
+
+<h2>12. Lapset</h2>
+<p>vTasku on tarkoitettu vähintään 18-vuotiaille, emmekä tietoisesti kerää tietoja nuoremmilta.</p>
+
+<h2>13. Suunnitteilla: anonyymit hintapanokset (ei tässä versiossa)</h2>
+<p>Myöhempi versio voi tarjota valinnaisen, oletuksena pois päältä olevan kytkimen hintojen anonyymiin jakamiseen (julkinen paikan nimi, luokka, summa ja päivämäärä, ilman kellonaikaa, sijaintia, muistiinpanoja, kuvia, IP-osoitetta tai käyttäjätunnusta). Se näyttää tarkasti, mitä lähetetään, sen voi sammuttaa milloin tahansa, ja päivitämme tämän käytännön ja pyydämme suostumuksesi sovelluksessa ennen kuin se alkaa.</p>
+
+<h2>14. Muutokset</h2>
+<p>Tärkeistä muutoksista ilmoitamme sovelluksessa ennen niiden voimaantuloa. Voimassa alkaen: 2026-11-15.</p>
+</main>
+<footer>© vTasku · Thinh Dinh · <a href="mailto:tikki.dinh@gmail.com">tikki.dinh@gmail.com</a></footer></body></html>
