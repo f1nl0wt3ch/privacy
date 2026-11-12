@@ -6,7 +6,7 @@ lang: sv
 
 # Integritetspolicy
 
-**App:** Vung ("Appen") · **Senast uppdaterad:** 9 november 2026 · **Gäller från:** 15 november 2026
+**App:** Vung ("Appen") · **Senast uppdaterad:** 12 november 2026 · **Gäller från:** 15 november 2026
 
 [English](../../privacy/) (den engelska texten är originalet; om översättningen avviker gäller den engelska texten, om inte lagen i ditt land ger dig starkare rättigheter) · [Suomi](../../fi/privacy/) · [Deutsch](../../de/privacy/) · [Tiếng Việt](../../vi/privacy/)
 
@@ -38,6 +38,9 @@ När du ställer in och använder Appen kan du ange: land, språk, valuta, ålde
 - Poäng, diagram, uppskattningar och tips beräknas på din enhet.
 - Påminnelser och firanden av uppnådda mål är **lokala aviseringar** som din telefon skapar. Vi driver ingen server för pushnotiser.
 - Telefonens egen säkerhetskopia (till exempel iCloud-säkerhetskopia eller en säkerhetskopia på dator) kan innehålla Appens data, beroende på dina enhetsinställningar. Den säkerhetskopian styrs av Apple eller av dig, inte av oss.
+- Med Vung Plus kan du skapa en **säkerhetskopieringsfil** (Profil → Säkerhetskopia) och spara den där du själv väljer, till exempel i iCloud Drive eller Filer. Filen skapas på din enhet och hamnar bara där du sparar eller delar den. Vi tar aldrig emot den och Appen krypterar den inte.
+- Det valfria **applåset** (Plus) använder Face ID eller Touch ID via iOS. Dina biometriska uppgifter stannar hos iOS; Appen får bara veta om det lyckades.
+- Om du också använder vår app **vTasku** på samma telefon kan Vung läsa de utgiftssummor som vTasku delar via en mapp som bara våra appar på din enhet kan använda (en Apple App Group). Vung lämnar också en liten markeringsfil där så att vTasku vet att Vung är installerat; den innehåller inga ekonomiska uppgifter. Inget av detta lämnar din enhet.
 
 Eftersom uppgifterna stannar på din enhet **kan vi inte återställa dem** om du tar bort Appen, återställer eller tappar telefonen och saknar säkerhetskopia av enheten.
 
@@ -134,7 +137,7 @@ Vår server och databas finns inom EU. Vissa av leverantörerna ovan (till exemp
 - **Radera alla data** – raderar allt som Appen lagrar på din enhet och återställer Appen, som därefter skapar ett nytt support-ID. Detta kan inte ångras. Det raderar **inte** uppgifter på vår server eller hos RevenueCat (se nedan).
 - **Integritet och annonser** – se eller ändra dina annonsval (visas där samtycke krävs).
 - **Påminnelser** – ändra tid eller dölj belopp på låsskärmen.
-- **Exportera mina data** (Plus) – exportera dina data som en fil.
+- **Exportera och säkerhetskopiera mina data** (Plus) – exportera dina data som en fil eller skapa en säkerhetskopia att spara i iCloud Drive eller Filer och återställa senare. Filerna stannar på din enhet om du inte väljer att spara eller dela dem.
 - **Support-ID** – se eller dela det ID som vår server känner dig under.
 
 **Radera eller se dina uppgifter på vår server:** mejla oss ditt support-ID (helst innan du använder "Radera alla data") och berätta vad du vill. Vi raderar eller skickar de inbjudningsuppgifter, koder och tilldelningar som är kopplade till det inom en månad. En tilldelning av gratis Plus upphör när vi raderar den.

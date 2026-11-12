@@ -6,7 +6,7 @@ lang: fi
 
 # Tietosuojaseloste
 
-**Sovellus:** Vung ("Sovellus") · **Päivitetty viimeksi:** 9. marraskuuta 2026 · **Voimassa alkaen:** 15. marraskuuta 2026
+**Sovellus:** Vung ("Sovellus") · **Päivitetty viimeksi:** 12. marraskuuta 2026 · **Voimassa alkaen:** 15. marraskuuta 2026
 
 [English](../../privacy/) (englanninkielinen teksti on alkuperäinen; jos käännös poikkeaa siitä, noudatetaan englanninkielistä tekstiä, ellei kotimaasi laki anna sinulle vahvempia oikeuksia) · [Svenska](../../sv/privacy/) · [Deutsch](../../de/privacy/) · [Tiếng Việt](../../vi/privacy/)
 
@@ -38,6 +38,9 @@ Kun otat Sovelluksen käyttöön ja käytät sitä, voit syöttää: maan, kiele
 - Pisteet, kaaviot, arviot ja vinkit lasketaan laitteellasi.
 - Muistutukset ja tavoitteiden saavuttamisesta kertovat ilmoitukset ovat puhelimesi luomia **paikallisia ilmoituksia**. Emme ylläpidä push-ilmoituspalvelinta.
 - Puhelimen oma varmuuskopio (esimerkiksi iCloud-varmuuskopio tai tietokoneelle tehty varmuuskopio) voi sisältää Sovelluksen tiedot laitteesi asetuksista riippuen. Varmuuskopiota hallinnoi Apple tai sinä, ei me.
+- Vung Plusilla voit luoda **varmuuskopiotiedoston** (Profiili → Varmuuskopio) ja tallentaa sen valitsemaasi paikkaan, esimerkiksi iCloud Driveen tai Tiedostoihin. Tiedosto luodaan laitteellasi ja päätyy vain sinne, minne sen tallennat tai jaat. Emme koskaan vastaanota sitä, eikä Sovellus salaa sitä.
+- Valinnainen **sovelluksen lukitus** (Plus) käyttää Face ID:tä tai Touch ID:tä iOS:n kautta. Biometriset tiedot pysyvät iOS:llä; Sovellus saa tietää vain, onnistuiko tunnistus.
+- Jos käytät samassa puhelimessa myös **vTasku**-sovellustamme, Vung voi lukea vTaskun jakamat menojen kokonaissummat kansiosta, jota vain sovelluksemme laitteellasi voivat käyttää (Apple App Group). Vung jättää sinne myös pienen merkkitiedoston, jotta vTasku tietää Vungin olevan asennettuna; se ei sisällä taloustietoja. Mikään tästä ei poistu laitteeltasi.
 
 Koska tiedot pysyvät laitteellasi, **emme voi palauttaa niitä**, jos poistat Sovelluksen tai nollaat tai kadotat puhelimesi eikä sinulla ole laitteen varmuuskopiota.
 
@@ -134,7 +137,7 @@ Palvelimemme ja tietokantamme sijaitsevat EU:ssa. Jotkin edellä mainituista pal
 - **Poista kaikki tiedot** – poistaa kaiken, mitä Sovellus tallentaa laitteellesi, ja nollaa Sovelluksen, joka luo sen jälkeen uuden tukitunnuksen. Tätä ei voi perua. Se **ei** poista tietoja palvelimeltamme tai RevenueCatista (ks. alla).
 - **Yksityisyys ja mainokset** – tarkastele tai muuta mainosvalintojasi (näytetään, kun suostumus vaaditaan).
 - **Muistutukset** – muuta kellonaikaa tai piilota summat lukitusnäytöllä.
-- **Vie tietoni** (Plus) – vie tietosi tiedostona.
+- **Vie ja varmuuskopioi tietoni** (Plus) – vie tietosi tiedostona tai luo varmuuskopiotiedosto, jonka tallennat iCloud Driveen tai Tiedostoihin ja palautat myöhemmin. Tiedostot pysyvät laitteellasi, ellet valitse tallentaa tai jakaa niitä.
 - **Tukitunnus** – katso tai jaa tunnus, jolla palvelimemme tuntee sinut.
 
 **Palvelimellamme olevien tietojen poistaminen tai tarkastaminen:** lähetä meille tukitunnuksesi sähköpostitse (mieluiten ennen kuin käytät "Poista kaikki tiedot" -toimintoa) ja kerro, mitä haluat. Poistamme tai toimitamme siihen liitetyt kutsutiedot, koodit ja myönnöt kuukauden kuluessa. Ilmaisen Plussan myöntö päättyy, kun poistamme sen.

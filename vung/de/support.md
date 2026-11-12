@@ -18,7 +18,22 @@ Nennen Sie uns in Ihrer Nachricht Ihr Telefonmodell, Ihre iOS- oder Android-Vers
 Ihre Finanzdaten werden nur auf Ihrem Telefon gespeichert. Wir haben kein Kontosystem. Unser kleiner Server speichert nur Einladungscodes, Einladungsprämien und Gewährungen von kostenlosem Plus, verknüpft mit einer zufälligen Support-ID, niemals Ihre Finanzdaten. Siehe [Datenschutzerklärung](../privacy/).
 
 **Ich habe mein Telefon verloren oder die App gelöscht. Können Sie meine Daten wiederherstellen?**
-Nein, denn wir erhalten sie nie. Wenn Sie eine Gerätesicherung hatten (iCloud oder auf einem Computer), kann das Wiederherstellen des Telefons daraus die Daten zurückbringen.
+Nein, denn wir erhalten sie nie. Wenn Sie eine Gerätesicherung hatten (iCloud oder auf einem Computer), kann das Wiederherstellen des Telefons daraus die Daten zurückbringen. Wenn Sie eine Vung-Sicherungsdatei gespeichert haben (Profil → Sicherung, Plus), öffnen Sie Profil → **Aus Sicherung wiederherstellen** und wählen Sie die Datei.
+
+**Wie sichere ich meine Daten in iCloud?** (Plus)
+Profil → **In iCloud Drive / Dateien sichern**. Wählen Sie im Teilen-Menü „In Dateien sichern“ und dann iCloud Drive. Zum Wiederherstellen, zum Beispiel auf einem neuen Telefon, öffnen Sie Profil → **Aus Sicherung wiederherstellen** und wählen die Datei. Die Wiederherstellung ersetzt, was auf dem Telefon ist. Vung lädt nichts von selbst hoch und die App verschlüsselt die Datei nicht, bewahren Sie sie daher sicher auf.
+
+**Was kann ich in der kostenlosen Version hinzufügen?**
+Bis zu 3 Schulden, 4 Vermögenswerte und 1 Sparziel. Vung Plus hat keine Grenze. Bereits gespeicherte Einträge bleiben; Sie können nur keine neuen hinzufügen, bis Sie einige entfernen oder Plus nutzen.
+
+**Was ist die monatliche Frage zu meinem Ziel?**
+Wenn Sie einem Ziel einen Sparbetrag pro Monat geben, fragt Vung jeden Monat (Banner auf der Übersicht, Zahlungen-Ansicht und eine Erinnerung am 2.), ob Sie ihn zurückgelegt haben. Ja schreibt den Betrag dem Vermögenswert des Ziels gut, Nein überspringt den Monat, und Sie können durch Tippen rückgängig machen.
+
+**Wie wird der Notgroschen gemessen?**
+Abgedeckte Monate = Notgroschen ÷ Kosten eines Monats, wobei ein Monat Fixkosten + flexible Ausgaben + Kreditraten umfasst. Sie wählen selbst, wie viele Monate Sie möchten (Tab Vermögen, Standard 6). Wenn Sie das Ziel erreichen, gibt es ein Feuerwerk und Sie können das Ziel erhöhen.
+
+**Kann ich die App sperren?**
+Ja, mit Vung Plus: Profil → App-Sperre. Sie nutzt Face ID oder Touch ID Ihres Telefons. Wir erhalten nie Ihre biometrischen Daten.
 
 **Wie lösche ich meine Daten?**
 Öffnen Sie Profil → **Alle Daten löschen**. Auch das Löschen der App entfernt deren Daten vom Telefon.

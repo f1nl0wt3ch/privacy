@@ -6,9 +6,10 @@ lang: vi
 
 # Chính sách quyền riêng tư
 
-**Ứng dụng:** Vung ("Ứng dụng") · **Cập nhật lần cuối:** 9 tháng 11 năm 2026 · **Có hiệu lực từ:** 15 tháng 11 năm 2026
+**Ứng dụng:** Vung ("Ứng dụng") · **Cập nhật lần cuối:** 12 tháng 11 năm 2026 · **Có hiệu lực từ:** 15 tháng 11 năm 2026
 
-[English](../../privacy/) (bản tiếng Anh là bản gốc; nếu có khác biệt thì áp dụng bản tiếng Anh, trừ khi luật nước bạn cho bạn quyền lợi cao hơn) · [Suomi](../../fi/privacy/) · [Svenska](../../sv/privacy/) · [Deutsch](../../de/privacy/)
+[English](../../privacy/) (bản tiếng Anh là bản gốc; nếu có khác biệt thì áp dụng bản tiếng Anh, trừ khi luật nước bạn cho bạn quyền lợi cao hơn)
+ · [Suomi](../../fi/privacy/) · [Svenska](../../sv/privacy/) · [Deutsch](../../de/privacy/)
 
 ## 1. Tóm tắt
 
@@ -38,6 +39,9 @@ Khi thiết lập và dùng Ứng dụng, bạn có thể nhập: quốc gia, ng
 - Điểm số, biểu đồ, số ước tính và gợi ý được tính ngay trên thiết bị.
 - Lời nhắc và lời chúc mừng mục tiêu là **thông báo cục bộ** do điện thoại của bạn tạo ra. Chúng tôi không vận hành máy chủ gửi thông báo.
 - Bản sao lưu của chính điện thoại (ví dụ iCloud hoặc sao lưu qua máy tính) có thể chứa dữ liệu của Ứng dụng, tùy cài đặt của bạn. Bản sao lưu đó do Apple hoặc bạn kiểm soát, không phải chúng tôi.
+- Với Vung Plus, bạn có thể tạo một **tệp sao lưu** (Hồ sơ → Sao lưu) và lưu ở nơi bạn chọn, ví dụ iCloud Drive hoặc Tệp. Tệp được tạo trên thiết bị của bạn và chỉ đến nơi bạn lưu hoặc chia sẻ. Chúng tôi không bao giờ nhận nó, và Ứng dụng không mã hóa nó.
+- **Khóa ứng dụng** tùy chọn (Plus) dùng Face ID hoặc Touch ID thông qua iOS. Dữ liệu sinh trắc học ở lại với iOS; Ứng dụng chỉ biết xác thực có thành công hay không.
+- Nếu bạn cũng dùng ứng dụng **vTasku** của chúng tôi trên cùng điện thoại, Vung có thể đọc các tổng chi tiêu mà vTasku chia sẻ qua một thư mục chỉ các ứng dụng của chúng tôi trên thiết bị bạn dùng được (Apple App Group). Vung cũng để lại ở đó một tệp đánh dấu nhỏ để vTasku biết Vung đã được cài; tệp này không chứa dữ liệu tài chính. Không có gì trong việc này rời khỏi thiết bị của bạn.
 
 Vì dữ liệu chỉ ở trên thiết bị, **chúng tôi không thể khôi phục** nếu bạn xóa Ứng dụng, đặt lại hoặc mất điện thoại mà không có bản sao lưu.
 
@@ -134,7 +138,7 @@ Máy chủ và cơ sở dữ liệu của chúng tôi đặt tại EU. Một s�
 - **Xóa toàn bộ dữ liệu:** xóa mọi thứ Ứng dụng lưu trên thiết bị và đặt lại Ứng dụng; sau đó Ứng dụng tạo mã hỗ trợ mới. Không thể hoàn tác. Thao tác này **không** xóa hồ sơ trên máy chủ của chúng tôi hay tại RevenueCat (xem bên dưới).
 - **Lựa chọn quyền riêng tư và quảng cáo:** xem hoặc đổi lựa chọn quảng cáo (hiển thị ở nơi cần sự đồng ý).
 - **Lời nhắc:** đổi giờ nhắc, hoặc ẩn số tiền trên màn hình khóa.
-- **Xuất dữ liệu** (Plus): xuất dữ liệu của bạn thành tệp.
+- **Xuất và sao lưu dữ liệu** (Plus): xuất dữ liệu thành tệp, hoặc tạo tệp sao lưu để lưu vào iCloud Drive hoặc Tệp và khôi phục sau. Các tệp ở lại trên thiết bị trừ khi bạn chọn lưu hoặc chia sẻ chúng.
 - **Mã hỗ trợ:** xem hoặc chia sẻ mã mà máy chủ dùng để nhận ra bạn.
 
 **Xem hoặc xóa dữ liệu trên máy chủ:** gửi email cho chúng tôi kèm mã hỗ trợ (nếu được, hãy làm trước khi bấm "Xóa toàn bộ dữ liệu") và cho biết bạn muốn gì. Chúng tôi xóa hoặc gửi cho bạn hồ sơ lời mời, mã mời và quyền Plus gắn với mã đó trong vòng một tháng. Quyền Plus miễn phí sẽ chấm dứt khi bị xóa.

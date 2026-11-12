@@ -6,7 +6,8 @@ lang: vi
 
 # Hỗ trợ
 
-[English](../../support/) · [Suomi](../../fi/support/) · [Svenska](../../sv/support/) · [Deutsch](../../de/support/)
+[English](../../support/)
+ · [Suomi](../../fi/support/) · [Svenska](../../sv/support/) · [Deutsch](../../de/support/)
 
 Email: **tikki.dinh@gmail.com** · Chúng tôi thường trả lời trong 2 ngày làm việc.
 
@@ -18,7 +19,22 @@ Khi viết, hãy cho biết kiểu điện thoại, phiên bản iOS hoặc Andr
 Dữ liệu tài chính của bạn chỉ nằm trên điện thoại. Chúng tôi không có hệ thống tài khoản. Máy chủ nhỏ của chúng tôi chỉ giữ mã mời, phần thưởng lời mời và Plus miễn phí, gắn với một mã hỗ trợ ngẫu nhiên, không bao giờ giữ dữ liệu tài chính của bạn. Xem [Chính sách quyền riêng tư](../privacy/).
 
 **Tôi làm mất điện thoại hoặc xóa Ứng dụng. Bạn khôi phục dữ liệu được không?**
-Không, vì chúng tôi không bao giờ nhận dữ liệu đó. Nếu bạn có bản sao lưu thiết bị (iCloud hoặc qua máy tính), khôi phục điện thoại từ bản đó có thể đưa dữ liệu trở lại.
+Không, vì chúng tôi không bao giờ nhận dữ liệu đó. Nếu bạn có bản sao lưu thiết bị (iCloud hoặc qua máy tính), khôi phục điện thoại từ bản đó có thể đưa dữ liệu trở lại. Nếu bạn đã lưu tệp sao lưu của Vung (Hồ sơ → Sao lưu, Plus), hãy mở Hồ sơ → **Khôi phục từ bản sao lưu** và chọn tệp đó.
+
+**Làm sao sao lưu dữ liệu lên iCloud?** (Plus)
+Hồ sơ → **Sao lưu vào iCloud Drive / Tệp**. Trong bảng chia sẻ, chọn "Lưu vào Tệp" rồi chọn iCloud Drive. Để khôi phục, ví dụ trên điện thoại mới, mở Hồ sơ → **Khôi phục từ bản sao lưu** và chọn tệp. Việc khôi phục thay thế dữ liệu hiện có trên điện thoại. Vung không tự tải gì lên, và tệp không được Ứng dụng mã hóa, nên hãy giữ an toàn.
+
+**Bản miễn phí cho thêm được bao nhiêu?**
+Tối đa 3 khoản nợ, 4 tài sản và 1 mục tiêu tiết kiệm. Vung Plus không giới hạn. Những mục đã lưu vẫn còn; bạn chỉ không thêm mới được cho đến khi xóa bớt hoặc dùng Plus.
+
+**Câu hỏi hàng tháng về mục tiêu là gì?**
+Nếu bạn đặt khoản tiết kiệm mỗi tháng cho một mục tiêu, mỗi tháng Vung sẽ hỏi (banner ở Tổng quan, màn hình Trả nợ và một lời nhắc vào ngày 2) bạn đã để dành chưa. Chọn Có thì số tiền được cộng vào tài sản của mục tiêu, chọn Không thì bỏ qua tháng đó, và bạn có thể chạm để hoàn tác.
+
+**Quỹ dự phòng được tính thế nào?**
+Số tháng đủ = quỹ dự phòng ÷ chi phí một tháng, trong đó một tháng gồm chi phí cố định + chi tiêu linh hoạt + tiền trả nợ. Bạn tự chọn số tháng muốn có (tab Tài sản, mặc định 6). Khi đạt, bạn sẽ có pháo hoa và có thể nâng mục tiêu.
+
+**Tôi có thể khóa Ứng dụng không?**
+Có, với Vung Plus: Hồ sơ → Khóa ứng dụng. Tính năng dùng Face ID hoặc Touch ID trên điện thoại. Chúng tôi không bao giờ nhận dữ liệu sinh trắc học của bạn.
 
 **Làm sao xóa dữ liệu của tôi?**
 Mở Hồ sơ → **Xóa toàn bộ dữ liệu**. Xóa Ứng dụng cũng xóa dữ liệu của nó khỏi điện thoại.

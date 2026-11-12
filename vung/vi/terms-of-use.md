@@ -6,9 +6,10 @@ lang: vi
 
 # Điều khoản sử dụng
 
-**Ứng dụng:** Vung ("Ứng dụng") · **Cập nhật lần cuối:** 9 tháng 11 năm 2026 · **Có hiệu lực từ:** 15 tháng 11 năm 2026
+**Ứng dụng:** Vung ("Ứng dụng") · **Cập nhật lần cuối:** 12 tháng 11 năm 2026 · **Có hiệu lực từ:** 15 tháng 11 năm 2026
 
-[English](../../terms/) (bản tiếng Anh là bản gốc; nếu có khác biệt thì áp dụng bản tiếng Anh, trừ khi luật nước bạn cho bạn quyền lợi cao hơn) · [Suomi](../../fi/terms/) · [Svenska](../../sv/terms/) · [Deutsch](../../de/terms/)
+[English](../../terms/) (bản tiếng Anh là bản gốc; nếu có khác biệt thì áp dụng bản tiếng Anh, trừ khi luật nước bạn cho bạn quyền lợi cao hơn)
+ · [Suomi](../../fi/terms/) · [Svenska](../../sv/terms/) · [Deutsch](../../de/terms/)
 
 Các điều khoản này là giữa bạn và **Thinh Dinh**, Kytötie 71, 04430 Järvenpää, Phần Lan, tikki.dinh@gmail.com ("chúng tôi"). Khi tải về hoặc sử dụng Ứng dụng, bạn chấp nhận các điều khoản này. Nếu không chấp nhận, xin đừng dùng Ứng dụng.
 
@@ -18,7 +19,7 @@ Các điều khoản này là giữa bạn và **Thinh Dinh**, Kytötie 71, 0443
 
 ## 2. Ứng dụng là gì
 
-Ứng dụng giúp bạn ghi lại và hiểu tài chính của chính mình: dòng tiền hàng tháng, các khoản nợ, tài sản, điểm sức khỏe tài chính từ 1 đến 10, tính toán khoản trả nợ, lời nhắc và các mô phỏng "nếu như" (tùy chọn). Dữ liệu của bạn được lưu trên thiết bị (xem [Chính sách quyền riêng tư](../privacy/)).
+Ứng dụng giúp bạn ghi lại và hiểu tài chính của chính mình: dòng tiền hàng tháng, các khoản nợ, tài sản, điểm sức khỏe tài chính từ 1 đến 10, tính toán khoản trả nợ, lời nhắc và các mô phỏng "nếu như" (tùy chọn), mục tiêu tiết kiệm (kèm khoản tiết kiệm hàng tháng tùy chọn mà bạn xác nhận mỗi tháng), mục tiêu quỹ dự phòng và, nếu vTasku được cài trên cùng điện thoại, khung xem chỉ đọc các tổng chi tiêu mà vTasku chia sẻ. Dữ liệu của bạn được lưu trên thiết bị (xem [Chính sách quyền riêng tư](../privacy/)).
 
 ## 3. Không phải lời khuyên tài chính
 
@@ -34,10 +35,12 @@ Các điều khoản này là giữa bạn và **Thinh Dinh**, Kytötie 71, 0443
 | Điểm số, khoản nợ, tài sản, xác nhận hàng tháng, lời nhắc | Có | Có |
 | Quảng cáo ("Được tài trợ") | Có | Không |
 | Mục tiêu tiết kiệm và đầu tư | 1 mục tiêu | Không giới hạn |
-| Biểu đồ (tài sản ròng, nợ, tiền lãi theo năm, cơ cấu tài sản) | Chỉ xem trước | Có |
-| Tính năng bổ sung (như mô phỏng tùy chọn, xuất dữ liệu, lịch sử dài hơn) | Giới hạn | Có |
+| Khoản nợ | Tối đa 3 | Không giới hạn |
+| Tài sản | Tối đa 4 | Không giới hạn |
+| Biểu đồ (tài sản ròng, nợ, tiền lãi theo tháng, cơ cấu tài sản, chi tiêu do vTasku chia sẻ) | Chỉ xem trước | Có |
+| Tính năng bổ sung (như mô phỏng tùy chọn, xuất dữ liệu, sao lưu và khôi phục, khóa bằng Face ID, sắp xếp và đổi thứ tự danh sách, lịch sử dài hơn) | Giới hạn | Có |
 
-Tính năng có thể thay đổi theo thời gian. Chúng tôi sẽ không gỡ một tính năng bạn đã trả tiền mà không đưa ra phương án thay thế hợp lý hoặc hoàn tiền theo yêu cầu của pháp luật.
+Giới hạn của bản miễn phí (khoản nợ, tài sản, mục tiêu) là các con số đặt trong Ứng dụng và có thể thay đổi. Những mục bạn đã lưu không bao giờ bị xóa vì giới hạn; bạn chỉ không thể thêm mới cho đến khi xóa bớt hoặc dùng Vung Plus. Tính năng có thể thay đổi theo thời gian. Chúng tôi sẽ không gỡ một tính năng bạn đã trả tiền mà không đưa ra phương án thay thế hợp lý hoặc hoàn tiền theo yêu cầu của pháp luật.
 
 ## 5. Đăng ký và giá
 
@@ -87,11 +90,11 @@ Dữ liệu dùng cho chương trình được mô tả trong [Chính sách quy�
 - Bạn **từ 18 tuổi trở lên**, hoặc đủ tuổi thành niên ở nước bạn nếu cao hơn.
 - Bạn nhập thông tin chính xác nhất có thể và tự chịu trách nhiệm về các quyết định dựa trên Ứng dụng.
 - Bạn không sao chép, chỉnh sửa, dịch ngược hay lạm dụng Ứng dụng, hoặc tìm cách vượt qua quảng cáo, thanh toán, bước kiểm tra của chương trình mời hay giới hạn kỹ thuật, trừ khi luật cho phép.
-- Bạn giữ thiết bị an toàn. Dữ liệu được lưu trên thiết bị của bạn nên hãy bảo vệ bằng mật mã hoặc khóa sinh trắc học.
+- Bạn giữ thiết bị an toàn. Dữ liệu được lưu trên thiết bị của bạn nên hãy bảo vệ bằng mật mã hoặc khóa sinh trắc học. Với Vung Plus, bạn cũng có thể khóa chính Ứng dụng bằng Face ID hoặc Touch ID.
 
 ## 9. Dữ liệu và sao lưu của bạn
 
-Dữ liệu tài chính của bạn chỉ được lưu trên thiết bị. **Chúng tôi không thể truy cập hay khôi phục nó.** (Máy chủ của chúng tôi chỉ giữ hồ sơ lời mời và Plus miễn phí như mô tả trong Chính sách quyền riêng tư.) Nếu bạn xóa Ứng dụng, đặt lại hoặc làm mất thiết bị, hoặc dùng "Xóa toàn bộ dữ liệu", dữ liệu có thể mất vĩnh viễn. Bản sao lưu của chính thiết bị có thể giữ một bản nếu bạn đã bật. Bạn tự chịu trách nhiệm tạo các bản sao lưu mà bạn cần, ví dụ dùng tính năng xuất dữ liệu nếu có Plus.
+Dữ liệu tài chính của bạn chỉ được lưu trên thiết bị. **Chúng tôi không thể truy cập hay khôi phục nó.** (Máy chủ của chúng tôi chỉ giữ hồ sơ lời mời và Plus miễn phí như mô tả trong Chính sách quyền riêng tư.) Nếu bạn xóa Ứng dụng, đặt lại hoặc làm mất thiết bị, hoặc dùng "Xóa toàn bộ dữ liệu", dữ liệu có thể mất vĩnh viễn. Bản sao lưu của chính thiết bị có thể giữ một bản nếu bạn đã bật. Bạn tự chịu trách nhiệm tạo các bản sao lưu mà bạn cần, ví dụ dùng tính năng sao lưu và xuất dữ liệu nếu có Plus. **Sao lưu (Plus):** Hồ sơ → Sao lưu tạo một tệp chứa dữ liệu của bạn để bạn lưu ở nơi mình chọn, ví dụ iCloud Drive hoặc Tệp, và sau này bạn có thể khôi phục từ tệp đó (việc này thay thế dữ liệu trên thiết bị). Ứng dụng không mã hóa tệp này và chúng tôi không bao giờ nhận nó, nên hãy giữ ở nơi an toàn.
 
 ## 10. Thay đổi và tính sẵn sàng
 

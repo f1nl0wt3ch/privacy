@@ -5,7 +5,7 @@ permalink: /vung/terms/
 
 # Terms of Use
 
-**App:** Vung (the "App") · **Last updated:** 9 November 2026 · **Effective from:** 15 November 2026
+**App:** Vung (the "App") · **Last updated:** 12 November 2026 · **Effective from:** 15 November 2026
 
 [Tiếng Việt](../vi/terms/) · [Suomi](../fi/terms/) · [Svenska](../sv/terms/) · [Deutsch](../de/terms/)
 
@@ -17,7 +17,7 @@ The App is licensed to you, not sold. When you download the App from the Apple A
 
 ## 2. What the App is
 
-The App helps you record and understand your own finances: monthly cash flow, debts, assets, a financial-health score from 1 to 10, loan payment calculations, reminders and optional what-if simulations. Your data is stored on your device (see the [Privacy Policy](../privacy/)).
+The App helps you record and understand your own finances: monthly cash flow, debts, assets, a financial-health score from 1 to 10, loan payment calculations, reminders and optional what-if simulations, savings goals (with an optional monthly saving you confirm each month), an emergency-fund target, and, if vTasku is installed on the same phone, a read-only view of the spending totals vTasku shares. Your data is stored on your device (see the [Privacy Policy](../privacy/)).
 
 ## 3. Not financial advice
 
@@ -33,10 +33,12 @@ The App helps you record and understand your own finances: monthly cash flow, de
 | Score, debts, assets, check-ins, reminders | Yes | Yes |
 | Advertising ("Sponsored") | Yes | No |
 | Savings and investment goals | 1 goal | Unlimited |
-| Charts (net worth, debt, interest per year, asset mix) | Preview only | Yes |
-| Extra features (such as custom what-if simulations, export, longer history) | Limited | Yes |
+| Debts | Up to 3 | Unlimited |
+| Assets | Up to 4 | Unlimited |
+| Charts (net worth, debt, interest per month, asset mix, spending shared by vTasku) | Preview only | Yes |
+| Extra features (such as custom what-if simulations, export, backup and restore, lock with Face ID, sorting and reordering lists, longer history) | Limited | Yes |
 
-Features may change over time. We will not remove a feature you paid for without offering a fair alternative or refund as required by law.
+The free-version limits (debts, assets, goals) are numbers set in the App and may change. Items you have already saved are never deleted because of a limit; you simply cannot add more until you remove some or get Vung Plus. Features may change over time. We will not remove a feature you paid for without offering a fair alternative or refund as required by law.
 
 ## 5. Subscriptions and pricing
 
@@ -86,11 +88,11 @@ The data used for the programme is described in the [Privacy Policy](../privacy/
 - You are at least **18 years old**, or the age of majority in your country if higher.
 - You enter information as accurately as you can and you are responsible for decisions you make using the App.
 - You will not copy, modify, reverse-engineer or misuse the App or try to bypass ads, payments, the invite programme's checks or technical limits, except as the law allows.
-- You keep your device secure. Your data is stored on your device, so protect it with a passcode or biometric lock.
+- You keep your device secure. Your data is stored on your device, so protect it with a passcode or biometric lock. With Vung Plus you can also lock the App itself with Face ID or Touch ID.
 
 ## 9. Your data and backups
 
-Your financial data is stored only on your device. **We cannot access or restore it.** (Our server holds only the invite and free-Plus records described in the Privacy Policy.) If you delete the App, reset or lose your device, or use "Delete all data", your data may be permanently lost. Your device's own backup may keep a copy if you have enabled it. You are responsible for making backups you rely on, for example by using the export feature if you have Plus.
+Your financial data is stored only on your device. **We cannot access or restore it.** (Our server holds only the invite and free-Plus records described in the Privacy Policy.) If you delete the App, reset or lose your device, or use "Delete all data", your data may be permanently lost. Your device's own backup may keep a copy if you have enabled it. You are responsible for making backups you rely on, for example with the backup and export features if you have Plus. **Backup (Plus):** Profile → Backup creates one file with your data that you save where you choose, for example iCloud Drive or Files, and you can restore from it later (this replaces the data on the device). The App does not encrypt the file and we never receive it, so keep it somewhere safe.
 
 ## 10. Changes and availability
 

@@ -18,7 +18,22 @@ När du skriver, ange din telefonmodell, iOS- eller Android-version, Appens vers
 Dina ekonomiska uppgifter lagras bara på din telefon. Vi har inget kontosystem. Vår lilla server innehåller bara inbjudningskoder, inbjudningsbelöningar och tilldelningar av gratis Plus, kopplade till ett slumpmässigt support-ID, aldrig dina ekonomiska uppgifter. Se [Integritetspolicy](../privacy/).
 
 **Jag har tappat telefonen eller tagit bort Appen. Kan ni återställa mina uppgifter?**
-Nej, eftersom vi aldrig tar emot dem. Om du hade en säkerhetskopia av enheten (iCloud eller på en dator) kan det hända att uppgifterna kommer tillbaka om du återställer telefonen från den.
+Nej, eftersom vi aldrig tar emot dem. Om du hade en säkerhetskopia av enheten (iCloud eller på en dator) kan det hända att uppgifterna kommer tillbaka om du återställer telefonen från den. Om du sparade en Vung-säkerhetskopia (Profil → Säkerhetskopia, Plus), öppna Profil → **Återställ från säkerhetskopia** och välj filen.
+
+**Hur säkerhetskopierar jag mina uppgifter till iCloud?** (Plus)
+Profil → **Säkerhetskopiera till iCloud Drive / Filer**. Välj "Spara i Filer" och sedan iCloud Drive i delningsmenyn. För att återställa, till exempel på en ny telefon, öppna Profil → **Återställ från säkerhetskopia** och välj filen. Återställningen ersätter det som finns på telefonen. Vung laddar inte upp något av sig självt och Appen krypterar inte filen, så förvara den säkert.
+
+**Vad kan jag lägga till i gratisversionen?**
+Upp till 3 skulder, 4 tillgångar och 1 sparmål. Vung Plus har ingen gräns. Poster du redan har sparat finns kvar; du kan bara inte lägga till fler förrän du tar bort några eller skaffar Plus.
+
+**Vad är den månatliga frågan om mitt mål?**
+Om du anger ett sparande per månad för ett mål frågar Vung varje månad (banner på Översikt, vyn Betalningar och en påminnelse den 2:a) om du lade undan det. Ja lägger till beloppet i målets tillgång, Nej hoppar över månaden och du kan trycka för att ångra.
+
+**Hur mäts nödfonden?**
+Täckta månader = nödfonden ÷ en månads kostnader, där en månad är fasta kostnader + rörliga utgifter + lånebetalningar. Du väljer själv hur många månader du vill ha (fliken Tillgångar, standard 6). När du når målet får du fyrverkerier och kan höja målet.
+
+**Kan jag låsa Appen?**
+Ja, med Vung Plus: Profil → Applås. Det använder Face ID eller Touch ID på din telefon. Vi tar aldrig emot dina biometriska uppgifter.
 
 **Hur raderar jag mina uppgifter?**
 Öppna Profil → **Radera alla data**. Om du tar bort Appen försvinner också dess data från telefonen.

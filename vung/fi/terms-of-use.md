@@ -6,7 +6,7 @@ lang: fi
 
 # Käyttöehdot
 
-**Sovellus:** Vung ("Sovellus") · **Päivitetty viimeksi:** 9. marraskuuta 2026 · **Voimassa alkaen:** 15. marraskuuta 2026
+**Sovellus:** Vung ("Sovellus") · **Päivitetty viimeksi:** 12. marraskuuta 2026 · **Voimassa alkaen:** 15. marraskuuta 2026
 
 [English](../../terms/) (englanninkielinen teksti on alkuperäinen; jos käännös poikkeaa siitä, noudatetaan englanninkielistä tekstiä, ellei kotimaasi laki anna sinulle vahvempia oikeuksia) · [Svenska](../../sv/terms/) · [Deutsch](../../de/terms/) · [Tiếng Việt](../../vi/terms/)
 
@@ -18,7 +18,7 @@ Sovellukseen annetaan sinulle käyttöoikeus, sitä ei myydä. Kun lataat Sovell
 
 ## 2. Mikä Sovellus on
 
-Sovellus auttaa sinua kirjaamaan ja ymmärtämään omaa talouttasi: kuukausittaisia kassavirtoja, velkoja, varoja, taloudellisen terveyden pisteitä asteikolla 1–10, lainanlyhennyslaskelmia, muistutuksia ja valinnaisia "mitä jos" -simulaatioita. Tietosi tallennetaan laitteellesi (ks. [Tietosuojaseloste](../privacy/)).
+Sovellus auttaa sinua kirjaamaan ja ymmärtämään omaa talouttasi: kuukausittaisia kassavirtoja, velkoja, varoja, taloudellisen terveyden pisteitä asteikolla 1–10, lainanlyhennyslaskelmia, muistutuksia ja valinnaisia "mitä jos" -simulaatioita, säästötavoitteita (valinnaisella kuukausisäästöllä, jonka vahvistat joka kuukausi), hätärahastotavoitteen ja, jos vTasku on asennettu samaan puhelimeen, vain luku -näkymän vTaskun jakamiin menojen kokonaissummiin. Tietosi tallennetaan laitteellesi (ks. [Tietosuojaseloste](../privacy/)).
 
 ## 3. Ei ole talousneuvontaa
 
@@ -34,10 +34,12 @@ Sovellus auttaa sinua kirjaamaan ja ymmärtämään omaa talouttasi: kuukausitta
 | Pisteet, velat, varat, kuukausitarkistukset, muistutukset | Kyllä | Kyllä |
 | Mainonta ("Sponsoroitu") | Kyllä | Ei |
 | Säästö- ja sijoitustavoitteet | 1 tavoite | Rajoittamaton |
-| Kaaviot (nettovarallisuus, velat, korot vuodessa, varojen jakauma) | Vain esikatselu | Kyllä |
-| Lisäominaisuudet (kuten mukautetut "mitä jos" -simulaatiot, vienti, pidempi historia) | Rajoitettu | Kyllä |
+| Velat | Enintään 3 | Rajoittamaton |
+| Varat | Enintään 4 | Rajoittamaton |
+| Kaaviot (nettovarallisuus, velat, korot kuukausittain, varojen jakauma, vTaskun jakamat menot) | Vain esikatselu | Kyllä |
+| Lisäominaisuudet (kuten mukautetut "mitä jos" -simulaatiot, vienti, varmuuskopiointi ja palautus, lukitus Face ID:llä, listojen lajittelu ja järjestäminen, pidempi historia) | Rajoitettu | Kyllä |
 
-Ominaisuudet voivat muuttua ajan myötä. Emme poista maksamaasi ominaisuutta tarjoamatta kohtuullista vaihtoehtoa tai hyvitystä lain edellyttämällä tavalla.
+Ilmaisversion rajat (velat, varat, tavoitteet) ovat Sovelluksessa asetettuja lukuja, ja ne voivat muuttua. Jo tallentamiasi kohteita ei koskaan poisteta rajan vuoksi; et vain voi lisätä uusia, ennen kuin poistat joitakin tai hankit Vung Plusin. Ominaisuudet voivat muuttua ajan myötä. Emme poista maksamaasi ominaisuutta tarjoamatta kohtuullista vaihtoehtoa tai hyvitystä lain edellyttämällä tavalla.
 
 ## 5. Tilaukset ja hinnat
 
@@ -87,11 +89,11 @@ Ohjelmassa käytettävät tiedot on kuvattu [Tietosuojaselosteen](../privacy/) k
 - Olet vähintään **18-vuotias** tai asuinmaasi täysi-ikäisyysiän mukainen, jos se on korkeampi.
 - Syötät tiedot mahdollisimman tarkasti ja olet itse vastuussa päätöksistä, joita teet Sovelluksen avulla.
 - Et kopioi, muokkaa, pura takaisin (reverse engineering) tai väärinkäytä Sovellusta etkä yritä kiertää mainoksia, maksuja, kutsuohjelman tarkistuksia tai teknisiä rajoituksia, paitsi siltä osin kuin laki sen sallii.
-- Pidät laitteesi turvallisena. Tietosi tallennetaan laitteellesi, joten suojaa se pääsykoodilla tai biometrisellä lukituksella.
+- Pidät laitteesi turvallisena. Tietosi tallennetaan laitteellesi, joten suojaa se pääsykoodilla tai biometrisellä lukituksella. Vung Plusilla voit lisäksi lukita itse Sovelluksen Face ID:llä tai Touch ID:llä.
 
 ## 9. Tietosi ja varmuuskopiot
 
-Taloustietosi tallennetaan vain laitteellesi. **Emme voi päästä niihin käsiksi emmekä palauttaa niitä.** (Palvelimellamme on vain Tietosuojaselosteessa kuvatut kutsuja ja ilmaista Plussaa koskevat tiedot.) Jos poistat Sovelluksen, nollaat tai kadotat laitteesi tai käytät toimintoa "Poista kaikki tiedot", tietosi voivat hävitä pysyvästi. Laitteen oma varmuuskopio voi säilyttää kopion, jos olet ottanut sen käyttöön. Olet itse vastuussa varmuuskopioista, joihin luotat, esimerkiksi käyttämällä vientitoimintoa, jos sinulla on Plus.
+Taloustietosi tallennetaan vain laitteellesi. **Emme voi päästä niihin käsiksi emmekä palauttaa niitä.** (Palvelimellamme on vain Tietosuojaselosteessa kuvatut kutsuja ja ilmaista Plussaa koskevat tiedot.) Jos poistat Sovelluksen, nollaat tai kadotat laitteesi tai käytät toimintoa "Poista kaikki tiedot", tietosi voivat hävitä pysyvästi. Laitteen oma varmuuskopio voi säilyttää kopion, jos olet ottanut sen käyttöön. Olet itse vastuussa varmuuskopioista, joihin luotat, esimerkiksi varmuuskopio- ja vientitoiminnoilla, jos sinulla on Plus. **Varmuuskopio (Plus):** Profiili → Varmuuskopio luo yhden tiedoston tiedoistasi, jonka tallennat valitsemaasi paikkaan, esimerkiksi iCloud Driveen tai Tiedostoihin, ja voit palauttaa tiedot siitä myöhemmin (palautus korvaa laitteella olevat tiedot). Sovellus ei salaa tiedostoa emmekä me koskaan vastaanota sitä, joten säilytä se turvallisessa paikassa.
 
 ## 10. Muutokset ja saatavuus
 

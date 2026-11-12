@@ -6,7 +6,7 @@ lang: sv
 
 # Användarvillkor
 
-**App:** Vung ("Appen") · **Senast uppdaterad:** 9 november 2026 · **Gäller från:** 15 november 2026
+**App:** Vung ("Appen") · **Senast uppdaterad:** 12 november 2026 · **Gäller från:** 15 november 2026
 
 [English](../../terms/) (den engelska texten är originalet; om översättningen avviker gäller den engelska texten, om inte lagen i ditt land ger dig starkare rättigheter) · [Suomi](../../fi/terms/) · [Deutsch](../../de/terms/) · [Tiếng Việt](../../vi/terms/)
 
@@ -18,7 +18,7 @@ Appen licensieras till dig, den säljs inte. När du laddar ner Appen från Appl
 
 ## 2. Vad Appen är
 
-Appen hjälper dig att registrera och förstå din egen ekonomi: månatliga kassaflöden, skulder, tillgångar, en poäng för ekonomisk hälsa från 1 till 10, beräkningar av lånebetalningar, påminnelser och valfria "tänk om"-simuleringar. Dina uppgifter lagras på din enhet (se [Integritetspolicy](../privacy/)).
+Appen hjälper dig att registrera och förstå din egen ekonomi: månatliga kassaflöden, skulder, tillgångar, en poäng för ekonomisk hälsa från 1 till 10, beräkningar av lånebetalningar, påminnelser och valfria "tänk om"-simuleringar, sparmål (med ett valfritt månadssparande som du bekräftar varje månad), ett mål för nödfonden och, om vTasku är installerat på samma telefon, en skrivskyddad vy av de utgiftssummor som vTasku delar. Dina uppgifter lagras på din enhet (se [Integritetspolicy](../privacy/)).
 
 ## 3. Inte finansiell rådgivning
 
@@ -34,10 +34,12 @@ Appen hjälper dig att registrera och förstå din egen ekonomi: månatliga kass
 | Poäng, skulder, tillgångar, månadsavstämningar, påminnelser | Ja | Ja |
 | Reklam ("Sponsrat") | Ja | Nej |
 | Sparmål och investeringsmål | 1 mål | Obegränsat |
-| Diagram (nettoförmögenhet, skulder, ränta per år, tillgångsfördelning) | Endast förhandsvisning | Ja |
-| Extrafunktioner (till exempel egna "tänk om"-simuleringar, export, längre historik) | Begränsat | Ja |
+| Skulder | Högst 3 | Obegränsat |
+| Tillgångar | Högst 4 | Obegränsat |
+| Diagram (nettoförmögenhet, skulder, ränta per månad, tillgångsfördelning, utgifter som vTasku delar) | Endast förhandsvisning | Ja |
+| Extrafunktioner (till exempel egna "tänk om"-simuleringar, export, säkerhetskopiering och återställning, låsning med Face ID, sortering och ändrad ordning i listor, längre historik) | Begränsat | Ja |
 
-Funktioner kan ändras över tid. Vi tar inte bort en funktion du har betalat för utan att erbjuda ett rimligt alternativ eller återbetalning i den mån lagen kräver det.
+Gratisversionens gränser (skulder, tillgångar, mål) är siffror som anges i Appen och kan ändras. Poster du redan har sparat tas aldrig bort på grund av en gräns; du kan bara inte lägga till fler förrän du tar bort några eller skaffar Vung Plus. Funktioner kan ändras över tid. Vi tar inte bort en funktion du har betalat för utan att erbjuda ett rimligt alternativ eller återbetalning i den mån lagen kräver det.
 
 ## 5. Prenumerationer och priser
 
@@ -87,11 +89,11 @@ De uppgifter som används för programmet beskrivs i [Integritetspolicy](../priv
 - Du är minst **18 år**, eller myndig enligt lagen i ditt land om den åldern är högre.
 - Du anger uppgifter så korrekt du kan och är ansvarig för de beslut du fattar med hjälp av Appen.
 - Du kopierar, ändrar, bakåtkompilerar (reverse engineering) eller missbrukar inte Appen och försöker inte kringgå reklam, betalningar, inbjudningsprogrammets kontroller eller tekniska begränsningar, utom i den mån lagen tillåter det.
-- Du håller din enhet säker. Dina uppgifter lagras på din enhet, så skydda den med en kod eller biometrisk låsning.
+- Du håller din enhet säker. Dina uppgifter lagras på din enhet, så skydda den med en kod eller biometrisk låsning. Med Vung Plus kan du också låsa själva Appen med Face ID eller Touch ID.
 
 ## 9. Dina uppgifter och säkerhetskopior
 
-Dina ekonomiska uppgifter lagras endast på din enhet. **Vi kan inte komma åt eller återställa dem.** (Vår server innehåller bara de uppgifter om inbjudningar och gratis Plus som beskrivs i integritetspolicyn.) Om du tar bort Appen, återställer eller tappar din enhet eller använder "Radera alla data" kan dina uppgifter gå förlorade för alltid. Enhetens egen säkerhetskopia kan behålla en kopia om du har aktiverat den. Du ansvarar för att göra de säkerhetskopior du förlitar dig på, till exempel med exportfunktionen om du har Plus.
+Dina ekonomiska uppgifter lagras endast på din enhet. **Vi kan inte komma åt eller återställa dem.** (Vår server innehåller bara de uppgifter om inbjudningar och gratis Plus som beskrivs i integritetspolicyn.) Om du tar bort Appen, återställer eller tappar din enhet eller använder "Radera alla data" kan dina uppgifter gå förlorade för alltid. Enhetens egen säkerhetskopia kan behålla en kopia om du har aktiverat den. Du ansvarar för att göra de säkerhetskopior du förlitar dig på, till exempel med funktionerna för säkerhetskopiering och export om du har Plus. **Säkerhetskopia (Plus):** Profil → Säkerhetskopia skapar en fil med dina uppgifter som du sparar där du själv väljer, till exempel i iCloud Drive eller Filer, och du kan återställa från den senare (det ersätter uppgifterna på enheten). Appen krypterar inte filen och vi tar aldrig emot den, så förvara den säkert.
 
 ## 10. Ändringar och tillgänglighet
 

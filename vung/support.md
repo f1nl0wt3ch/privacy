@@ -17,7 +17,22 @@ When you write, tell us your phone model, iOS or Android version, App version (P
 Your financial data is stored only on your phone. We have no account system. Our small server holds only invite codes, invite rewards and free Plus grants, linked to a random support ID, never your financial data. See the [Privacy Policy](../privacy/).
 
 **I lost my phone or deleted the App. Can you restore my data?**
-No, because we never receive it. If you had a device backup (iCloud or a computer backup), restoring your phone from it may bring the data back.
+No, because we never receive it. If you had a device backup (iCloud or a computer backup), restoring your phone from it may bring the data back. If you saved a Vung backup file (Profile → Backup, Plus), open Profile → **Restore from a backup** and pick that file.
+
+**How do I back up my data to iCloud?** (Plus)
+Profile → **Back up to iCloud Drive / Files**. Choose "Save to Files" and then iCloud Drive in the share sheet. To restore, for example on a new phone, open Profile → **Restore from a backup** and pick the file. Restoring replaces what is on the phone. Vung does not upload anything by itself, and the file is not encrypted by the App, so keep it safe.
+
+**What can I add in the free version?**
+Up to 3 debts, 4 assets and 1 savings goal. Vung Plus has no limit. Items you already saved stay; you just cannot add more until you remove some or get Plus.
+
+**What is the monthly question about my goal?**
+If you give a goal a saving per month, Vung asks each month (Overview banner, Payments screen and a reminder on the 2nd) whether you put it aside. Yes adds the amount to the goal's asset, No skips the month, and you can tap to undo.
+
+**How is the emergency fund measured?**
+Months covered = your emergency fund ÷ one month of costs, where a month is fixed costs + flexible spending + loan payments. You choose how many months you want (Assets tab, default 6). When you reach it you get fireworks and can raise the goal.
+
+**Can I lock the App?**
+Yes, with Vung Plus: Profile → App lock. It uses Face ID or Touch ID on your phone. We never receive your biometric data.
 
 **How do I delete my data?**
 Open Profile → **Delete all data**. Deleting the App also removes its data from the phone.

@@ -6,7 +6,7 @@ lang: de
 
 # Datenschutzerklärung
 
-**App:** Vung („die App“) · **Zuletzt aktualisiert:** 9. November 2026 · **Gültig ab:** 15. November 2026
+**App:** Vung („die App“) · **Zuletzt aktualisiert:** 12. November 2026 · **Gültig ab:** 15. November 2026
 
 [English](../../privacy/) (der englische Text ist das Original; weicht die Übersetzung ab, gilt der englische Text, es sei denn, das Recht Ihres Landes gewährt Ihnen stärkere Rechte) · [Suomi](../../fi/privacy/) · [Svenska](../../sv/privacy/) · [Tiếng Việt](../../vi/privacy/)
 
@@ -38,6 +38,9 @@ Beim Einrichten und Nutzen der App können Sie Folgendes eingeben: Land, Sprache
 - Punktzahlen, Diagramme, Schätzungen und Tipps werden auf Ihrem Gerät berechnet.
 - Erinnerungen und Glückwünsche zu erreichten Zielen sind **lokale Benachrichtigungen**, die Ihr Telefon erzeugt. Wir betreiben keinen Push-Benachrichtigungsserver.
 - Die eigene Sicherung Ihres Telefons (zum Beispiel iCloud-Backup oder ein Backup auf dem Computer) kann je nach Geräteeinstellungen die Daten der App enthalten. Dieses Backup wird von Apple oder von Ihnen kontrolliert, nicht von uns.
+- Mit Vung Plus können Sie eine **Sicherungsdatei** erstellen (Profil → Sicherung) und dort speichern, wo Sie möchten, etwa in iCloud Drive oder Dateien. Die Datei entsteht auf Ihrem Gerät und gelangt nur dorthin, wo Sie sie speichern oder teilen. Wir erhalten sie nie und die App verschlüsselt sie nicht.
+- Die optionale **App-Sperre** (Plus) nutzt Face ID oder Touch ID über iOS. Ihre biometrischen Daten bleiben bei iOS; die App erfährt nur, ob die Prüfung erfolgreich war.
+- Wenn Sie auf demselben Telefon auch unsere App **vTasku** nutzen, kann Vung die von vTasku geteilten Ausgabensummen über einen Ordner lesen, den nur unsere Apps auf Ihrem Gerät nutzen können (eine Apple App Group). Vung legt dort außerdem eine kleine Markierungsdatei ab, damit vTasku weiß, dass Vung installiert ist; sie enthält keine Finanzdaten. Nichts davon verlässt Ihr Gerät.
 
 Da die Daten auf Ihrem Gerät bleiben, **können wir sie nicht wiederherstellen**, wenn Sie die App löschen oder Ihr Telefon zurücksetzen oder verlieren und keine Gerätesicherung haben.
 
@@ -134,7 +137,7 @@ Unser Server und unsere Datenbank befinden sich in der EU. Einige der oben genan
 - **Alle Daten löschen** – löscht alles, was die App auf Ihrem Gerät speichert, und setzt die App zurück; diese erzeugt danach eine neue Support-ID. Dies kann nicht rückgängig gemacht werden. Datensätze auf unserem Server oder bei RevenueCat werden dadurch **nicht** gelöscht (siehe unten).
 - **Datenschutz und Werbung** – Werbeeinstellungen ansehen oder ändern (wird dort angezeigt, wo eine Einwilligung erforderlich ist).
 - **Erinnerungen** – Uhrzeit ändern oder Beträge auf dem Sperrbildschirm ausblenden.
-- **Meine Daten exportieren** (Plus) – Ihre Daten als Datei exportieren.
+- **Meine Daten exportieren und sichern** (Plus) – Ihre Daten als Datei exportieren oder eine Sicherungsdatei erstellen, die Sie in iCloud Drive oder Dateien speichern und später wiederherstellen. Die Dateien bleiben auf Ihrem Gerät, sofern Sie sie nicht speichern oder teilen.
 - **Support-ID** – die ID ansehen oder teilen, unter der unser Server Sie kennt.
 
 **Daten auf unserem Server löschen oder einsehen:** Senden Sie uns per E-Mail Ihre Support-ID (möglichst bevor Sie „Alle Daten löschen“ nutzen) und teilen Sie uns mit, was Sie wünschen. Wir löschen oder übermitteln die damit verknüpften Einladungsdatensätze, Codes und Gewährungen innerhalb eines Monats. Eine Gewährung von kostenlosem Plus endet, wenn wir sie löschen.

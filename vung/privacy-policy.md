@@ -5,7 +5,7 @@ permalink: /vung/privacy/
 
 # Privacy Policy
 
-**App:** Vung (the "App") · **Last updated:** 9 November 2026 · **Effective from:** 15 November 2026
+**App:** Vung (the "App") · **Last updated:** 12 November 2026 · **Effective from:** 15 November 2026
 
 [Tiếng Việt](../vi/privacy/) · [Suomi](../fi/privacy/) · [Svenska](../sv/privacy/) · [Deutsch](../de/privacy/)
 
@@ -37,6 +37,9 @@ When you set up and use the App you may enter: country, language, currency, age,
 - Scores, charts, estimates and tips are calculated on your device.
 - Reminders and goal celebrations are **local notifications** created by your phone. We do not run a push-notification server.
 - Your phone's own backup (for example iCloud Backup or a computer backup) may include the App's data, depending on your device settings. That backup is controlled by Apple or you, not by us.
+- With Vung Plus you can create a **backup file** (Profile → Backup) and save it where you choose, for example iCloud Drive or Files. The file is created on your device and goes only where you save or share it. We never receive it, and the App does not encrypt it.
+- The optional **app lock** (Plus) uses Face ID or Touch ID through iOS. Your biometric data stays with iOS; the App only learns whether it succeeded.
+- If you also use our app **vTasku** on the same phone, Vung can read the spending totals vTasku shares through a folder that only our apps on your device can use (an Apple App Group). Vung also leaves a small marker file there so vTasku knows Vung is installed; it contains no financial data. Nothing in this leaves your device.
 
 Because the data stays on your device, **we cannot recover it** if you delete the App, reset or lose your phone and have no device backup.
 
@@ -133,7 +136,7 @@ Our server and database are in the EU. Some providers above (for example Google,
 - **Delete all data:** erases everything the App stores on your device and resets the App, which then creates a new support ID. This cannot be undone. It does **not** delete records on our server or at RevenueCat (see below).
 - **Privacy and ads choices:** review or change your ad choices (shown where consent is required).
 - **Reminders:** change the time, or hide amounts on the lock screen.
-- **Export** (Plus): export your data as a file.
+- **Export and backup** (Plus): export your data as a file, or create a backup file to save to iCloud Drive or Files and restore later. The files stay on your device unless you choose to save or share them.
 - **Support ID:** see or share the ID that our server knows you by.
 
 **Delete or see your data on our server:** email us your support ID (before using "Delete all data", if you can) and tell us what you want. We delete or send the invite records, codes and grants linked to it within one month. A free Plus grant ends when we delete it.

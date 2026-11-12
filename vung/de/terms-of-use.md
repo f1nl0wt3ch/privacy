@@ -6,7 +6,7 @@ lang: de
 
 # Nutzungsbedingungen
 
-**App:** Vung („die App“) · **Zuletzt aktualisiert:** 9. November 2026 · **Gültig ab:** 15. November 2026
+**App:** Vung („die App“) · **Zuletzt aktualisiert:** 12. November 2026 · **Gültig ab:** 15. November 2026
 
 [English](../../terms/) (der englische Text ist das Original; weicht die Übersetzung ab, gilt der englische Text, es sei denn, das Recht Ihres Landes gewährt Ihnen stärkere Rechte) · [Suomi](../../fi/terms/) · [Svenska](../../sv/terms/) · [Tiếng Việt](../../vi/terms/)
 
@@ -18,7 +18,7 @@ Die App wird Ihnen lizenziert, nicht verkauft. Wenn Sie die App aus dem Apple Ap
 
 ## 2. Was die App ist
 
-Die App hilft Ihnen, Ihre eigenen Finanzen zu erfassen und zu verstehen: monatlicher Cashflow, Schulden, Vermögen, eine Punktzahl für die finanzielle Gesundheit von 1 bis 10, Berechnungen von Kreditraten, Erinnerungen und optionale Was-wäre-wenn-Simulationen. Ihre Daten werden auf Ihrem Gerät gespeichert (siehe [Datenschutzerklärung](../privacy/)).
+Die App hilft Ihnen, Ihre eigenen Finanzen zu erfassen und zu verstehen: monatlicher Cashflow, Schulden, Vermögen, eine Punktzahl für die finanzielle Gesundheit von 1 bis 10, Berechnungen von Kreditraten, Erinnerungen und optionale Was-wäre-wenn-Simulationen, Sparziele (mit einem optionalen monatlichen Sparbetrag, den Sie jeden Monat bestätigen), ein Notgroschen-Ziel und, wenn vTasku auf demselben Telefon installiert ist, eine reine Leseansicht der Ausgabensummen, die vTasku teilt. Ihre Daten werden auf Ihrem Gerät gespeichert (siehe [Datenschutzerklärung](../privacy/)).
 
 ## 3. Keine Finanzberatung
 
@@ -34,10 +34,12 @@ Die App hilft Ihnen, Ihre eigenen Finanzen zu erfassen und zu verstehen: monatli
 | Punktzahl, Schulden, Vermögen, monatliche Check-ins, Erinnerungen | Ja | Ja |
 | Werbung („Gesponsert“) | Ja | Nein |
 | Spar- und Anlageziele | 1 Ziel | Unbegrenzt |
-| Diagramme (Nettovermögen, Schulden, Zinsen pro Jahr, Vermögensaufteilung) | Nur Vorschau | Ja |
-| Zusatzfunktionen (etwa eigene Was-wäre-wenn-Simulationen, Export, längerer Verlauf) | Eingeschränkt | Ja |
+| Schulden | Bis zu 3 | Unbegrenzt |
+| Vermögenswerte | Bis zu 4 | Unbegrenzt |
+| Diagramme (Nettovermögen, Schulden, Zinsen pro Monat, Vermögensaufteilung, von vTasku geteilte Ausgaben) | Nur Vorschau | Ja |
+| Zusatzfunktionen (etwa eigene Was-wäre-wenn-Simulationen, Export, Sicherung und Wiederherstellung, Sperre mit Face ID, Sortieren und Umordnen von Listen, längerer Verlauf) | Eingeschränkt | Ja |
 
-Funktionen können sich im Laufe der Zeit ändern. Wir entfernen keine Funktion, für die Sie bezahlt haben, ohne eine angemessene Alternative oder, soweit gesetzlich erforderlich, eine Erstattung anzubieten.
+Die Grenzen der kostenlosen Version (Schulden, Vermögenswerte, Ziele) sind in der App festgelegte Zahlen und können sich ändern. Bereits gespeicherte Einträge werden wegen einer Grenze nie gelöscht; Sie können nur keine neuen hinzufügen, bis Sie einige entfernen oder Vung Plus nutzen. Funktionen können sich im Laufe der Zeit ändern. Wir entfernen keine Funktion, für die Sie bezahlt haben, ohne eine angemessene Alternative oder, soweit gesetzlich erforderlich, eine Erstattung anzubieten.
 
 ## 5. Abonnements und Preise
 
@@ -87,11 +89,11 @@ Die für das Programm verwendeten Daten sind in der [Datenschutzerklärung](../p
 - Sie sind mindestens **18 Jahre** alt oder volljährig nach dem Recht Ihres Landes, wenn dieses Alter höher ist.
 - Sie geben Informationen so genau wie möglich ein und sind für Entscheidungen verantwortlich, die Sie mithilfe der App treffen.
 - Sie kopieren, verändern oder dekompilieren (Reverse Engineering) die App nicht, missbrauchen sie nicht und versuchen nicht, Werbung, Zahlungen, die Prüfungen des Einladungsprogramms oder technische Beschränkungen zu umgehen, außer soweit das Gesetz es erlaubt.
-- Sie halten Ihr Gerät sicher. Ihre Daten werden auf Ihrem Gerät gespeichert, schützen Sie es daher mit einem Code oder einer biometrischen Sperre.
+- Sie halten Ihr Gerät sicher. Ihre Daten werden auf Ihrem Gerät gespeichert, schützen Sie es daher mit einem Code oder einer biometrischen Sperre. Mit Vung Plus können Sie außerdem die App selbst mit Face ID oder Touch ID sperren.
 
 ## 9. Ihre Daten und Sicherungen
 
-Ihre Finanzdaten werden ausschließlich auf Ihrem Gerät gespeichert. **Wir können nicht darauf zugreifen und sie nicht wiederherstellen.** (Unser Server enthält nur die in der Datenschutzerklärung beschriebenen Datensätze zu Einladungen und kostenlosem Plus.) Wenn Sie die App löschen, Ihr Gerät zurücksetzen oder verlieren oder „Alle Daten löschen“ nutzen, können Ihre Daten dauerhaft verloren gehen. Die eigene Sicherung Ihres Geräts kann eine Kopie enthalten, wenn Sie sie aktiviert haben. Für Sicherungen, auf die Sie sich verlassen, sind Sie selbst verantwortlich, zum Beispiel durch die Exportfunktion, falls Sie Plus haben.
+Ihre Finanzdaten werden ausschließlich auf Ihrem Gerät gespeichert. **Wir können nicht darauf zugreifen und sie nicht wiederherstellen.** (Unser Server enthält nur die in der Datenschutzerklärung beschriebenen Datensätze zu Einladungen und kostenlosem Plus.) Wenn Sie die App löschen, Ihr Gerät zurücksetzen oder verlieren oder „Alle Daten löschen“ nutzen, können Ihre Daten dauerhaft verloren gehen. Die eigene Sicherung Ihres Geräts kann eine Kopie enthalten, wenn Sie sie aktiviert haben. Für Sicherungen, auf die Sie sich verlassen, sind Sie selbst verantwortlich, zum Beispiel mit den Funktionen für Sicherung und Export, falls Sie Plus haben. **Sicherung (Plus):** Profil → Sicherung erstellt eine Datei mit Ihren Daten, die Sie dort speichern, wo Sie möchten, etwa in iCloud Drive oder Dateien, und aus der Sie später wiederherstellen können (das ersetzt die Daten auf dem Gerät). Die App verschlüsselt die Datei nicht und wir erhalten sie nie, bewahren Sie sie daher sicher auf.
 
 ## 10. Änderungen und Verfügbarkeit
 
